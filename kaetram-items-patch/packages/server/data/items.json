@@ -8217,7 +8217,7 @@
     "flask": {
         "type": "object",
         "name": "フラスコ",
-        "description": "体力を回復させるためのフラスコ。どれくらい回復するかって？ +100 HPだ！",
+        "description": "A flask used to increment your health from one point to another. How much does it increment it by? +100 HP!",
         "storeCount": 10,
         "price": 40,
         "stackable": true,
@@ -8229,7 +8229,7 @@
     "hotsauce": {
         "type": "object",
         "name": "ホットソース",
-        "description": "なぜモブがこんなものを持っているのか本当に謎だ。一体何に使うつもりなんだろう？",
+        "description": "It's really weird why random mobs would be carrying this item. Like what could they possibly use this for?",
         "price": 150,
         "edible": true,
         "plugin": "hotsauce"
@@ -8237,7 +8237,7 @@
     "cure": {
         "type": "object",
         "name": "解毒剤",
-        "description": "毒を受けた？毒蛇や毒グモとの戦闘で一杯食わされた？それならこれがまさにあなたのための解毒剤だ！",
+        "description": "Are you poisoned? Have you been involved in a fight with a poisonous snake or venomous spider? Well this is the cure for you!",
         "storeCount": 10,
         "price": 150,
         "stackable": false,
@@ -8247,7 +8247,7 @@
     "manaflask": {
         "type": "object",
         "name": "マナフラスコ",
-        "description": "マナが少し足りない人向けの、爽やかな一杯！ +35 MP！",
+        "description": "A refreshing drink for those a little bit low on mana! +35 MP!",
         "storeCount": 10,
         "price": 200,
         "stackable": true,
@@ -8259,7 +8259,7 @@
     "burger": {
         "type": "object",
         "name": "バーガー",
-        "description": "なぜファンタジー世界にバーガーがあるのか誰も知らないが、美味しいことだけは確かだ！ +200 HP！",
+        "description": "How did a burger make its way into a fantasy world? Who knows, but it's delicious! +200 HP!",
         "storeCount": 10,
         "price": 350,
         "stackable": true,
@@ -8271,7 +8271,7 @@
     "bigflask": {
         "type": "object",
         "name": "大きなフラスコ",
-        "description": "普通のフラスコと同じだが、より大きい。つまり当然、より多く回復するはずだ！ +250 HP！",
+        "description": "It's like the other flask, except it's bigger, so obviously it must heal more! +250 HP!",
         "storeCount": 10,
         "price": 600,
         "stackable": true,
@@ -8283,7 +8283,7 @@
     "bigmanaflask": {
         "type": "object",
         "name": "大きなマナフラスコ",
-        "description": "本気でマナに飢えている人へ！ +95 MP！",
+        "description": "For those seriously thirsty for some mana! +95 MP!",
         "storeCount": 10,
         "price": 600,
         "stackable": true,
@@ -8297,30 +8297,30 @@
         "name": "火のポーション",
         "price": 250,
         "maxStackSize": 3,
-        "description": "少し熱い？こんがり焼かれてしまって、その燃えるような感覚が抜けない？このファイアポーションがあなたの悩みを解決する！",
+        "description": "Feeling a little hot? Have you been burnt to a crisp and can't seem to shake off that burning sensation? The fire potion is the answer to your ailments!",
         "edible": true,
         "plugin": "firepotion"
     },
     "smallemptyvial": {
         "type": "object",
         "name": "小さな空の小瓶",
-        "description": "本当に何でも入れられる、比較的小さな小瓶。おそらく水を入れても問題ないだろう。"
+        "description": "A relatively small vial used for storing any liquid really. You could probably put water in this and it'll be just fine."
     },
     "bigemptyvial": {
         "type": "object",
         "name": "大きな空の小瓶",
-        "description": "本当に何でも入れられる、大きな小瓶。"
+        "description": "A big vial used for storing any liquid really."
     },
     "largeemptyvial": {
         "type": "object",
         "name": "大きな空の小瓶",
-        "description": "本当に何でも入れられる、特大の小瓶。"
+        "description": "A large vial used for storing any liquid really."
     },
     "snowpotion": {
         "type": "object",
         "name": "雪のポーション",
         "price": 25,
-        "description": "どこか奇妙なモニュメントから手に入った魔法のポーション。一時的に、冷気によるダメージを防いでくれる。",
+        "description": "A magical potion received by some weird monument. It temporarily prevents the player from taking damage from the cold.",
         "stackable": true,
         "maxStackSize": 3,
         "respawnDelay": 120000,
@@ -8335,7 +8335,7 @@
         "type": "object",
         "name": "黒いポーション",
         "price": 100,
-        "description": "このポーションは全く怪しくない。ぐいっと飲んでみて、本当に美味しいから！",
+        "description": "This potion is not at all suspicious. Drink up, it's really yummy!",
         "plugin": "blackpotion",
         "edible": true
     },
@@ -8347,25 +8347,25 @@
     "cd": {
         "type": "object",
         "name": "CD【クエスト】",
-        "description": "死にゆく兵士から受け取ったCD。彼の最後のミックステープが入っている。奥さんに届けてあげるべきかもしれない。",
+        "description": "A CD received by some dying soldier. Contains his last mixtape. I should probably get this to his wife or something.",
         "undroppable": true
     },
     "gold": {
         "type": "object",
         "name": "金",
         "stackable": true,
-        "description": "とても役に立つ、光り輝く金属。なぜか人々は商品と交換したがる。"
+        "description": "A very useful shiny metal that for some reason people like to exchange for goods."
     },
     "token": {
         "type": "object",
         "name": "トークン",
         "stackable": true,
-        "description": "どこか特別な店で、特別な物と交換できる特別なトークン。"
+        "description": "A special token that can be exchanged for special stuff at a special store somewhere special."
     },
     "banana": {
         "type": "object",
         "name": "バナナ",
-        "description": "バナナ。黄色くて長い果物。カリウムと食物繊維が豊富。",
+        "description": "A banana, a fruit that is yellow and long. It is a good source of potassium and fiber.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 700
@@ -8373,7 +8373,7 @@
     "watermelon": {
         "type": "object",
         "name": "スイカ",
-        "description": "スイカ。食べる前に切った方がよさそうだ。",
+        "description": "A watermelon, I should probably cut this up before eating it.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 800
@@ -8381,7 +8381,7 @@
     "apple": {
         "type": "object",
         "name": "リンゴ",
-        "description": "リンゴ。エネルギー源として優秀な一品！",
+        "description": "An apple, an excellent source of energy!",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 450
@@ -8389,7 +8389,7 @@
     "orange": {
         "type": "object",
         "name": "オレンジ",
-        "description": "面白いことに、この果物の名前は色の名前と同じで、その色自体もそうだ。",
+        "description": "It's funny, the name of the fruit is the same as the colour and its colour.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 750
@@ -8397,7 +8397,7 @@
     "blueberry": {
         "type": "object",
         "name": "ブルーベリー",
-        "description": "ブルーベリー。青くて丸い果物。抗酸化物質が豊富。",
+        "description": "A blueberry, a fruit that is blue and round. It is a good source of antioxidants.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 500
@@ -8407,40 +8407,40 @@
         "price": 1500,
         "name": "シャード - ティア1",
         "stackable": true,
-        "description": "シャードはアイテムをエンチャントするために使う。各ティアは、到達できる最大エンチャントレベルと、エンチャント成功率の上限を表している。"
+        "description": "Shards are items used to enchant equipments. Each tier represents the maximum attainable enchantment level and chance of enchanting succeeding."
     },
     "shardt2": {
         "type": "object",
         "price": 3000,
         "name": "シャード - ティア2",
         "stackable": true,
-        "description": "シャードはアイテムをエンチャントするために使う。各ティアは、到達できる最大エンチャントレベルと、エンチャント成功率の上限を表している。"
+        "description": "Shards are items used to enchant equipments. Each tier represents the maximum attainable enchantment level and chance of enchanting succeeding."
     },
     "shardt3": {
         "type": "object",
         "price": 4500,
         "name": "シャード - ティア3",
         "stackable": true,
-        "description": "シャードはアイテムをエンチャントするために使う。各ティアは、到達できる最大エンチャントレベルと、エンチャント成功率の上限を表している。"
+        "description": "Shards are items used to enchant equipments. Each tier represents the maximum attainable enchantment level and chance of enchanting succeeding."
     },
     "shardt4": {
         "type": "object",
         "price": 6000,
         "name": "シャード - ティア4",
         "stackable": true,
-        "description": "シャードはアイテムをエンチャントするために使う。各ティアは、到達できる最大エンチャントレベルと、エンチャント成功率の上限を表している。"
+        "description": "Shards are items used to enchant equipments. Each tier represents the maximum attainable enchantment level and chance of enchanting succeeding."
     },
     "shardt5": {
         "type": "object",
         "price": 7500,
         "name": "シャード - ティア5",
         "stackable": true,
-        "description": "シャードはアイテムをエンチャントするために使う。各ティアは、到達できる最大エンチャントレベルと、エンチャント成功率の上限を表している。"
+        "description": "Shards are items used to enchant equipments. Each tier represents the maximum attainable enchantment level and chance of enchanting succeeding."
     },
     "knife": {
         "type": "object",
         "name": "ナイフ",
-        "description": "主にフレッチング(矢作り)などに使われる、汎用性の高い刃物。",
+        "description": "A versatile cutting tool that will primarily be used for fletching and stuff.",
         "price": 50,
         "interactable": true,
         "plugin": "knife"
@@ -8448,7 +8448,7 @@
     "chisel": {
         "type": "object",
         "name": "ノミ",
-        "description": "宝石の加工などに使うノミ。",
+        "description": "A chisel used for crafting gems and stuff like that.",
         "price": 50,
         "interactable": true,
         "plugin": "chisel"
@@ -8456,122 +8456,122 @@
     "hammer": {
         "type": "object",
         "name": "ハンマー",
-        "description": "どこかの鍛冶屋が使っていそうな、神秘的なハンマーに見える。",
+        "description": "This looks like a mystical hammer from some blacksmith or something.",
         "price": 5
     },
     "string": {
         "type": "object",
         "name": "紐",
-        "description": "一本の紐。何かを作るのに使えるかもしれない。",
+        "description": "A piece of string, can probably be used to make things with it.",
         "stackable": true,
         "price": 50
     },
     "logs": {
         "type": "object",
         "name": "丸太",
-        "description": "ああ、おなじみの丸太。よく見ると木でできているのが分かる。",
+        "description": "Ah yes, the classic logs. Looking at them I can see that they're made out of wood.",
         "price": 65
     },
     "palmlogs": {
         "type": "object",
         "name": "ヤシの丸太",
-        "description": "面白いことに、この丸太はヤシの木でできている。他の木材とは違うものだ。",
+        "description": "Funny enough, these logs are made out of palm wood. Which is not the same as the other kinds of wood.",
         "price": 75
     },
     "pinelogs": {
         "type": "object",
         "name": "松の丸太",
-        "description": "うっかり斧を木に何度も振り下ろしていたら倒れてしまい、その時に見つけた気がする。",
+        "description": "I think I found these when I accidentally swung my axe at a tree repeatedly until it fell down.",
         "price": 88
     },
     "icelogs": {
         "type": "object",
         "name": "氷の丸太",
         "price": 65,
-        "description": "氷でできた丸太。触るととても冷たい。どうやっても解けることはない。火に入れたらどうなるんだろう。"
+        "description": "These logs are made out of ice. They're very cold to the touch. No matter what, they will not thaw. I wonder what happens when you put it in fire."
     },
     "icepalmlogs": {
         "type": "object",
         "name": "氷ヤシの丸太",
         "price": 50,
-        "description": "氷とヤシの木でできた丸太。触るととても冷たい。"
+        "description": "These logs are made out of ice and palm wood. They're very cold to the touch."
     },
     "icepinelogs": {
         "type": "object",
         "name": "氷松の丸太",
-        "description": "うっかり斧を木に何度も振り下ろしていたら倒れてしまい、その時に見つけた気がする。",
+        "description": "I think I found these when I accidentally swung my axe at a tree repeatedly until it fell down.",
         "price": 85
     },
     "aquasilliuslogs": {
         "type": "object",
         "name": "アクアシリウスの丸太",
         "price": 350,
-        "description": "カエトラムの森で見つかる神秘的な丸太。条件さえ満たせば、強力な弓を作るのに使えるらしい。"
+        "description": "Mystical logs found in the forests of Kaetram. Can be used to craft powerful bows, granted that you have the requirements I guess."
     },
     "alkythnlogs": {
         "type": "object",
         "name": "アルキスンの丸太",
         "price": 350,
-        "description": "カエトラムの森で見つかる神秘的な丸太。条件さえ満たせば、強力な弓を作るのに使えるらしい。"
+        "description": "Mystical logs found in the forests of Kaetram. Can be used to craft powerful bows, granted that you have the requirements I guess."
     },
     "heliphatitlogs": {
         "type": "object",
         "name": "ヘリファティットの丸太",
         "price": 350,
-        "description": "カエトラムの森で見つかる神秘的な丸太。条件さえ満たせば、強力な弓を作るのに使えるらしい。"
+        "description": "Mystical logs found in the forests of Kaetram. Can be used to craft powerful bows, granted that you have the requirements I guess."
     },
     "zoncillogs": {
         "type": "object",
         "name": "ゾンシルの丸太",
         "price": 350,
-        "description": "カエトラムの森で見つかる神秘的な丸太。条件さえ満たせば、強力な弓を作るのに使えるらしい。"
+        "description": "Mystical logs found in the forests of Kaetram. Can be used to craft powerful bows, granted that you have the requirements I guess."
     },
     "zondullogs": {
         "type": "object",
         "name": "ゾンダルの丸太",
         "price": 350,
-        "description": "カエトラムの森で見つかる神秘的な丸太。条件さえ満たせば、強力な弓を作るのに使えるらしい。"
+        "description": "Mystical logs found in the forests of Kaetram. Can be used to craft powerful bows, granted that you have the requirements I guess."
     },
     "bloodwoodlogs": {
         "type": "object",
         "name": "ブラッドウッドの丸太",
         "price": 400,
-        "description": "まるで血の涙を流しているように見える。"
+        "description": "It almost looks like they're crying blood."
     },
     "nisocore": {
         "type": "object",
         "name": "ニソック鉱石",
-        "description": "火山地帯で形成される古代の岩石。主にペンダントやリング作りに使われるが、他にも用途があるかもしれない。",
+        "description": "An ancient rock forming in volcanic areas. Generally used for crafting pendants and rings, and perhaps other things.",
         "price": 250
     },
     "cinnabarore": {
         "type": "object",
         "name": "辰砂鉱石",
-        "description": "特殊な金属を含んだ赤い鉱石。特定の武器の作成に使えるかもしれない。",
+        "description": "A red ore containing special metals. May be used for crafting of certain weapons.",
         "price": 350
     },
     "pytharore": {
         "type": "object",
         "name": "パイサー鉱石",
-        "description": "魔法の性質を持つ紫色の結晶。",
+        "description": "A purple crystal with magical properties.",
         "price": 500
     },
     "goldnugget": {
         "type": "object",
         "name": "金塊",
-        "description": "純金の塊。なぜかまだ加工しないと使えないらしい。",
+        "description": "A piece of pure gold. For some reason it still has to be processed before it can be used.",
         "price": 650
     },
     "iboore": {
         "type": "object",
         "name": "イボ鉱石",
-        "description": "奇妙な鉱石。用途はよく分かっていないが、さらに研究が進めば何かに使えるかもしれない。",
+        "description": "A peculiar ore. Its uses are not well understood, perhaps with further research it can be used for something.",
         "price": 800
     },
     "moonrockore": {
         "type": "object",
         "name": "宇宙の岩",
-        "description": "17万2千年前に空から落ちてきた小惑星の一部。きっと特別な物に違いない！",
+        "description": "Part of an Astroid that fell from the sky 172,000 Earthling years ago. Must be special!",
         "price": 2400
     },
     "bead": {
@@ -8580,53 +8580,53 @@
         "price": 10,
         "stackable": true,
         "maxStackSize": 3,
-        "description": "魔法の力を放つビーズ。他のアイテムと組み合わせて魔法のアイテムを作るのに使える。"
+        "description": "A bead that emanates magical properties. Can be used in conjunction with other items to create magical items."
     },
     "lightningbead": {
         "type": "object",
         "name": "雷のビーズ",
-        "description": "雷の力を宿した魔法のビーズ。魔法アイテムの作成に使える。"
+        "description": "A magical bead imbued with lightning properties. Can be used to craft magical items."
     },
     "naturebead": {
         "type": "object",
         "name": "魔法のビーズ",
-        "description": "自然の力を宿した魔法のビーズ。魔法アイテムの作成に使える。"
+        "description": "A magical bead imbued with the power of nature. Can be used to craft magical items."
     },
     "firebead": {
         "type": "object",
         "name": "魔法のビーズ",
-        "description": "炎の力を宿した魔法のビーズ。魔法アイテムの作成に使える。"
+        "description": "A magical bead imbued with fire. Can be used to craft magical items."
     },
     "icebead": {
         "type": "object",
         "name": "魔法のビーズ",
-        "description": "永遠に凍り付いた、強力な魔法のビーズ。魔法アイテムの作成に使える。"
+        "description": "A strong magical bead perpetually frozen. Can be used to craft magical items."
     },
     "stick": {
         "type": "object",
         "name": "柄（矢柄）",
         "price": 2,
         "stackable": true,
-        "description": "木の枝だ。ただの枝だ。他に何を言えばいいんだ？ゲームに追加された以上、何か作るのに使えるだろう。"
+        "description": "A stick. It's a stick. What else do you want me to say about it? You can probably use it to craft stuff now that it has been added in the game."
     },
     "feather": {
         "type": "object",
         "name": "羽根",
         "stackable": true,
         "price": 50,
-        "description": "羽根。多分どこかの鳥から抜けたものだと思う。これで矢を作れるかもしれない。"
+        "description": "A feather, I think it came off of a bird or something. You could make arrows with this thing."
     },
     "candykey": {
         "type": "object",
         "name": "キャンディの鍵",
         "price": 50,
-        "description": "サンタの秘密の部屋に入るための鍵。中に入ると崩れてしまう。"
+        "description": "A key that allows entrance into Santa's secret chamber. Crumbles upon entering."
     },
     "speedpotion": {
         "type": "object",
         "name": "速度のポーション",
         "price": 2500,
-        "description": "これを飲むと、しばらくの間攻撃速度が上がる…はず。",
+        "description": "Drinking this will probably speed up your attack rate for a short period of time. I think.",
         "edible": true,
         "plugin": "speedpotion"
     },
@@ -8634,7 +8634,7 @@
         "type": "object",
         "name": "命中力のポーション",
         "price": 1000,
-        "description": "この世界のポーションは、名前とは違う効果をもたらすことがよくある。今回はそうでないことを祈るばかりだ。",
+        "description": "If there's one thing I know is that potions in this world are always sketchy and do something else from what their name implies. I hope that's not the case here.",
         "edible": true,
         "effect": "accuracy",
         "duration": 60000,
@@ -8644,7 +8644,7 @@
         "type": "object",
         "name": "防御力のポーション",
         "price": 1000,
-        "description": "これを飲むと、しばらくの間かなりの防御力が得られる。",
+        "description": "Drinking this will make give you some serious defense for a short period of time.",
         "edible": true,
         "effect": "defense",
         "duration": 60000,
@@ -8654,7 +8654,7 @@
         "type": "object",
         "name": "筋力のポーション",
         "price": 1000,
-        "description": "最大ダメージ勝負に参加したい？このポーションはきっとあなたの最高の相棒になる。",
+        "description": "Do you wanna partake in maximum damage contests? This potion is probably your best friend.",
         "edible": true,
         "effect": "strength",
         "duration": 60000,
@@ -8664,7 +8664,7 @@
         "type": "object",
         "name": "ビール",
         "price": 1000,
-        "description": "ビールほど爽快なものはない。ただし、しばらくの間命中率が下がるかもしれない。",
+        "description": "Nothing is quite as refreshing as a beer, though this may potentially inhibit your accuracy for a wee bit.",
         "edible": true,
         "plugin": "beermug"
     },
@@ -8672,13 +8672,13 @@
         "type": "object",
         "name": "ハマグリ",
         "price": 100,
-        "description": "殻は硬いが、中身はきっと美味しいはずだ。"
+        "description": "It has a hard outer shell but I bet it's yummy inside."
     },
     "clamchowder": {
         "type": "object",
         "name": "クラムチャウダー",
         "price": 1000,
-        "description": "ハマグリで作った美味しいスープ。少し塩気が強い。",
+        "description": "A delicious soup made from clams. It's a bit salty though.",
         "edible": true,
         "smallBowl": true,
         "plugin": "healingitem",
@@ -8688,13 +8688,13 @@
         "type": "object",
         "name": "生のエビ",
         "price": 100,
-        "description": "料理すれば、ちゃんと食べられる何かになるかもしれない。"
+        "description": "Maybe if I cook this it'll become something actually edible."
     },
     "cookedshrimp": {
         "type": "object",
         "name": "調理済みのエビ",
         "price": 200,
-        "description": "一匹だけ調理されたエビ。孤独で、もう死んでいるが、それでも美味しい。",
+        "description": "A singular cooked shrimp, alone and dead. But still delicious.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 450
@@ -8703,13 +8703,13 @@
         "type": "object",
         "name": "クラゲ",
         "price": 100,
-        "description": "クラゲには実は脳がないって知ってた？だから自分を卑下しなくていいよ！"
+        "description": "Did you know that jellyfish don't actually have a brain. So don't feel so bad about yourself!"
     },
     "jellyfishsmoothie": {
         "type": "object",
         "name": "クラゲスムージー",
         "price": 1000,
-        "description": "こんなものを作ろうと本気で思った人がいるなんて信じられない。",
+        "description": "I can't believe someone would actually think up to create something like this.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 750
@@ -8718,31 +8718,31 @@
         "type": "object",
         "name": "昆布",
         "price": 100,
-        "description": "水中で育つ海藻の一種。他の食材と組み合わせるとかなり美味しい。"
+        "description": "Kelp is a type of seaweed that grows in water. It's pretty tasty when combined with other stuff."
     },
     "seed": {
         "type": "object",
         "name": "種",
         "price": 100,
-        "description": "何かを植えるための種。"
+        "description": "A seed that is used to plant things."
     },
     "rawbeef": {
         "type": "object",
         "name": "生の牛肉",
         "price": 100,
-        "description": "生の牛肉の塊。生で食べるのはあまり良い考えではなさそうだ。"
+        "description": "A piece of raw beef. It's probably not the best idea to eat it raw."
     },
     "rawtuna": {
         "type": "object",
         "name": "生マグロ",
         "price": 100,
-        "description": "水中でよく見かける魚。調理するとかなり美味しい。"
+        "description": "A fish that is commonly found in water. It's pretty tasty when cooked."
     },
     "tunasushi": {
         "type": "object",
         "name": "マグロの寿司",
         "price": 1000,
-        "description": "マグロで作った美味しい寿司。今のところゲーム内で一番の料理かもしれないし、そうでないかもしれない。誰にも分からない、私はただのテキストだ。",
+        "description": "A delicious sushi made from tuna. Probably the best in-game food at the moment, or not, who knows, I'm just a piece of text.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 850
@@ -8751,7 +8751,7 @@
         "type": "object",
         "name": "海藻ロール",
         "price": 800,
-        "description": "新鮮な具材が詰まった美味しい海藻ロール。寿司好きに人気の一品。",
+        "description": "A tasty seaweed roll filled with a variety of fresh ingredients. A popular choice for sushi lovers.",
         "edible": true,
         "stackable": true,
         "maxStackSize": 10,
@@ -8761,19 +8761,19 @@
     "barley": {
         "type": "object",
         "name": "大麦",
-        "description": "果物なのか、サラダなのか、いや穀物だ。パンか何かを作るのに使えるだろう。",
+        "description": "It's a fruit, no it's a sald, no it's a grain. You can probably use it to make bread or something like that.",
         "price": 100
     },
     "horseradish": {
         "type": "object",
         "name": "西洋わさび",
-        "description": "馬の…ラディッシュ、だと思う。分からない、私は植物学者じゃない、ただのテキストプロンプトだ。",
+        "description": "A horse's raddish, I think. I don't know, I'm not a botanist, I'm just a text prompt.",
         "price": 100
     },
     "blackberry": {
         "type": "object",
         "name": "ブラックベリー",
-        "description": "茂みに実るベリー。調理するとかなり美味しい。",
+        "description": "A berry that grows on bushes. It's pretty tasty when cooked.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 200,
@@ -8782,67 +8782,67 @@
     "borth": {
         "type": "object",
         "name": "ボース",
-        "description": "美味しそうで温かくて、良い匂いのする…正直これが何なのか本当に分からない。",
+        "description": "A nice yummy warm and nice smelling... I really don't know what it is.",
         "price": 100
     },
     "bronzebar": {
         "type": "object",
         "name": "青銅のインゴット",
-        "description": "青銅のインゴット。かなり重い。",
+        "description": "A bar of bronze. It's pretty heavy.",
         "price": 250
     },
     "bronzeore": {
         "type": "object",
         "name": "青銅の鉱石",
-        "description": "青銅の鉱石のかけら。かなり重い。",
+        "description": "A piece of bronze ore. It's pretty heavy.",
         "price": 100
     },
     "bucket": {
         "type": "object",
         "name": "バケツ",
-        "description": "バケツ。様々な液体を入れるのに使える。",
+        "description": "A bucket, you can use it to put a variety of liquids in it.",
         "price": 100
     },
     "cake": {
         "type": "object",
         "name": "ケーキ",
-        "description": "美味しいケーキ。かなり美味しい。",
+        "description": "A delicious cake. It's pretty tasty.",
         "price": 100
     },
     "cheese": {
         "type": "object",
         "name": "チーズ",
-        "description": "チーズのかけら。牛乳から作られたものだと思う。",
+        "description": "A piece of cheese. I think it came from milk.",
         "price": 100
     },
     "leaf": {
         "type": "object",
         "name": "葉っぱ",
-        "description": "チーズのかけら。牛乳から作られたものだと思う。",
+        "description": "A piece of cheese. I think it came from milk.",
         "price": 100
     },
     "cilantro": {
         "type": "object",
         "name": "コリアンダー",
-        "description": "メキシコ料理でよく使われる葉物ハーブ。調理するとかなり美味しい。",
+        "description": "A leafy herb that is commonly used in Mexican cuisine. It's pretty tasty when cooked.",
         "price": 100
     },
     "cloudberry": {
         "type": "object",
         "name": "クラウドベリー",
-        "description": "茂みに実るベリー。調理するとかなり美味しい。",
+        "description": "A berry that grows on bushes. It's pretty tasty when cooked.",
         "price": 100
     },
     "rawchicken": {
         "type": "object",
         "name": "生の鶏肉",
-        "description": "食べる前に調理した方がよさそうだ。",
+        "description": "I think I should cook this before I eat it.",
         "price": 100
     },
     "cookedchicken": {
         "type": "object",
         "name": "調理済みの鶏肉",
-        "description": "美味しい鶏肉。かなり美味しい。",
+        "description": "A delicious piece of chicken. It's pretty tasty.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 400,
@@ -8851,7 +8851,7 @@
     "cookedbeef": {
         "type": "object",
         "name": "調理済みの牛肉",
-        "description": "絶品の牛肉。食べると体力が回復する。",
+        "description": "A scrumptious piece of beef. You can eat it and it'll heal you.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 400,
@@ -8860,13 +8860,13 @@
     "rawpork": {
         "type": "object",
         "name": "生の豚肉",
-        "description": "食べる前に調理した方がよさそうだ。",
+        "description": "I think I should cook this before I eat it.",
         "price": 250
     },
     "cookedpork": {
         "type": "object",
         "name": "調理済みの豚肉",
-        "description": "美味しい豚肉。かなり美味しい。",
+        "description": "A delicious piece of pork. It's pretty tasty.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 400,
@@ -8875,13 +8875,13 @@
     "rawsausage": {
         "type": "object",
         "name": "生のソーセージ",
-        "description": "食べる前に調理した方がよさそうだ。",
+        "description": "I think I should cook this before I eat it.",
         "price": 100
     },
     "cookedsausage": {
         "type": "object",
         "name": "調理済みのソーセージ",
-        "description": "美味しいソーセージ。かなり美味しい。",
+        "description": "A delicious sausage. It's pretty tasty.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 650,
@@ -8890,79 +8890,79 @@
     "corn": {
         "type": "object",
         "name": "トウモロコシ",
-        "description": "トウモロコシ、しかも軸付きだ。",
+        "description": "It's corn, and it's on a cob.",
         "price": 100
     },
     "egg": {
         "type": "object",
         "name": "卵",
-        "description": "素敵な丸っこい卵。ニワトリから生まれたものだと思う。",
+        "description": "A wonderful sorta round egg, it came from a chicken, I think.",
         "price": 100
     },
     "gooseberry": {
         "type": "object",
         "name": "グーズベリー",
-        "description": "茂みに実るベリー。調理するとかなり美味しい。",
+        "description": "A berry that grows on bushes. It's pretty tasty when cooked.",
         "price": 100
     },
     "ironbar": {
         "type": "object",
         "name": "鉄のインゴット",
-        "description": "鉄のインゴット。かなり重い。",
+        "description": "A bar of iron. It's pretty heavy.",
         "price": 100
     },
     "mango": {
         "type": "object",
         "name": "マンゴー",
-        "description": "マンゴー。果物で食べられる。",
+        "description": "A mango, it's a fruit and it's edible",
         "price": 100
     },
     "milkbottle": {
         "type": "object",
         "name": "牛乳瓶",
-        "description": "牛乳の瓶。調理するとかなり美味しい。",
+        "description": "A bottle of milk. It's pretty tasty when cooked.",
         "price": 100
     },
     "mulberry": {
         "type": "object",
         "name": "桑の実",
-        "description": "茂みに実る（あるいは茂みの中にある）ベリー。",
+        "description": "A berry that grows on or in bushes.",
         "price": 100
     },
     "oat": {
         "type": "object",
         "name": "オーツ麦",
-        "description": "パンなどによく使われる穀物。",
+        "description": "A grain that is commonly used in bread.",
         "price": 100
     },
     "peach": {
         "type": "object",
         "name": "モモ",
-        "description": "モモ。果物で食べられる。",
+        "description": "A peach, it's a fruit and it's edible",
         "price": 100
     },
     "pineapple": {
         "type": "object",
         "name": "パイナップル",
-        "description": "パイナップル。果物で食べられる。",
+        "description": "A pineapple, it's a fruit and it's edible",
         "price": 100
     },
     "plum": {
         "type": "object",
         "name": "プラム",
-        "description": "プラム。果物で食べられる。",
+        "description": "A plum, it's a fruit and it's edible",
         "price": 100
     },
     "quinoa": {
         "type": "object",
         "name": "キヌア",
-        "description": "やあ、開発者だ。正直これが何に使われるのか全く分からないので、気の利いた説明が思いつかない。",
+        "description": "Hello this is the developer, I really don't know what this is even used in so I can't come up with a witty description.",
         "price": 100
     },
     "raspberry": {
         "type": "object",
         "name": "ラズベリー",
-        "description": "茂みの周りに実るベリー。",
+        "description": "A berry that grows on or around bushes..",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 150,
@@ -8971,7 +8971,7 @@
     "kiwi": {
         "type": "object",
         "name": "キウイ",
-        "description": "茂みの周りに実る果物。",
+        "description": "A fruit that grows on or around bushes..",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 150,
@@ -8980,73 +8980,73 @@
     "rock": {
         "type": "object",
         "name": "岩",
-        "description": "岩だ。岩は岩だ。他に何を言ってほしいんだ。",
+        "description": "A rock, it's a rock. What more do you want me to say.",
         "price": 100
     },
     "rice": {
         "type": "object",
         "name": "米",
-        "description": "少し調理すれば食べられる。",
+        "description": "You can eat this after you cook it for a bit.",
         "price": 100
     },
     "mustardplant": {
         "type": "object",
         "name": "マスタード",
-        "description": "カエトラム王国のあちこちに生えている植物。何かの材料に良いかもしれない。",
+        "description": "A plant found throughout the kingdom of Kaetram. Might be good for some ingredients.",
         "price": 50
     },
     "cuminplant": {
         "type": "object",
         "name": "クミン",
-        "description": "特定の料理に使われるハーブ。よく分からない、私はただの説明文だ。",
+        "description": "A herb used in certain cooking recipes. Not sure I'm just a description.",
         "price": 50
     },
     "paprika": {
         "type": "object",
         "name": "パプリカ",
-        "description": "とても素敵な調味料に使われる、とても素敵な野菜。",
+        "description": "A very nice vegetable used in very nice condiments.",
         "price": 50
     },
     "dandelion": {
         "type": "object",
         "name": "タンポポ",
-        "description": "草むらに生える可愛らしい黄色い植物。あるいは切り株の上にも。",
+        "description": "A cute little yellow plant that grows in the grass. Or on tree stumps.",
         "price": 50
     },
     "strawberry": {
         "type": "object",
         "name": "イチゴ",
-        "description": "茂みに実るベリー。",
+        "description": "A berry that grows on bushes.",
         "price": 100
     },
     "copperbar": {
         "type": "object",
         "name": "銅のインゴット",
-        "description": "銅のインゴット。かなり重い。",
+        "description": "A bar of copper. It's pretty heavy.",
         "price": 100
     },
     "tinbar": {
         "type": "object",
         "name": "スズのインゴット",
-        "description": "スズのインゴット。かなり重い。",
+        "description": "A bar of tin. It's pretty heavy.",
         "price": 100
     },
     "goldbar": {
         "type": "object",
         "name": "金のインゴット",
-        "description": "金のインゴット。かなり重くて輝いている。",
+        "description": "A bar of gold. It's pretty heavy and shiny.",
         "price": 1200
     },
     "tofu": {
         "type": "object",
         "name": "豆腐",
-        "description": "豆腐の塊。どうすればいいのか分からない、ヴィーガンじゃないので。",
+        "description": "A block of tofu. I don't know what to do with this, I'm not vegan.",
         "price": 100
     },
     "tomato": {
         "type": "object",
         "name": "トマト",
-        "description": "トマト、果物で食べられる。そう、果物なんだ、文句は言わせない。",
+        "description": "A tomato, it's a fruit and it's edible. Yes it's a fruit get over it.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 100,
@@ -9055,7 +9055,7 @@
     "onion": {
         "type": "object",
         "name": "たまねぎ",
-        "description": "たまねぎ。オーガのように層になっている。",
+        "description": "An onion, it has layers, like an ogre.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 100,
@@ -9064,7 +9064,7 @@
     "potato": {
         "type": "object",
         "name": "じゃがいも",
-        "description": "じゃがいも。野菜で食べられるが、調理した方がいいかもしれない。",
+        "description": "A potato, it's a vegetable and it's edible, though cooking it might be better.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 120,
@@ -9073,7 +9073,7 @@
     "chilli": {
         "type": "object",
         "name": "唐辛子",
-        "description": "唐辛子。辛いので注意すること。",
+        "description": "A chilli pepper, it's hot so be careful.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 100,
@@ -9082,127 +9082,127 @@
     "waterbucket": {
         "type": "object",
         "name": "水入りバケツ",
-        "description": "水の入ったバケツ。料理に使うことができる。",
+        "description": "A bucket of water. You can use it to cook stuff with it.",
         "price": 100
     },
     "bowlsmall": {
         "type": "object",
         "name": "小さなボウル",
-        "description": "小さなボウル。料理に使うことができる。",
+        "description": "A small bowl. Can be used to cook stuff in it.",
         "price": 100
     },
     "bowlmedium": {
         "type": "object",
         "name": "中くらいのボウル",
-        "description": "中くらいのボウル。料理に使うことができる。",
+        "description": "A medium bowl. Can be used to cook stuff in it.",
         "price": 100
     },
     "copperore": {
         "type": "object",
         "name": "銅の鉱石",
-        "description": "銅鉱石のかけら。かなり重い。",
+        "description": "A piece of copper ore. It's pretty heavy.",
         "price": 100
     },
     "tinore": {
         "type": "object",
         "name": "スズの鉱石",
-        "description": "スズ鉱石のかけら。",
+        "description": "A piece of tin ore.",
         "price": 100
     },
     "ironore": {
         "type": "object",
         "name": "鉄の鉱石",
-        "description": "鉄鉱石のかけら。",
+        "description": "A piece of iron ore.",
         "price": 100
     },
     "goldore": {
         "type": "object",
         "name": "金の鉱石",
-        "description": "金鉱石のかけら。かなり重い。",
+        "description": "A piece of gold ore. It's pretty heavy.",
         "price": 100
     },
     "coal": {
         "type": "object",
         "name": "石炭",
-        "description": "石炭のかけら。鉱石の精錬に使うことができる。",
+        "description": "A piece of coal. You can use it smelt ores.",
         "price": 75
     },
     "topaz": {
         "type": "object",
         "name": "トパーズ",
-        "description": "トパーズの宝石。とても美しい。",
+        "description": "A topaz gemstome, it's quite pretty.",
         "price": 350
     },
     "beryl": {
         "type": "object",
         "name": "ベリル",
-        "description": "ベリルの宝石。とても美しい。",
+        "description": "Beryl gemstone, it's quite pretty.",
         "price": 650
     },
     "lapislazuli": {
         "type": "object",
         "name": "ラピスラズリ",
-        "description": "半貴石の一種。とても美しい。",
+        "description": "A semi-precious stone, it's quite pretty.",
         "price": 800
     },
     "citrine": {
         "type": "object",
         "name": "シトリン",
-        "description": "かなり輝いていて、持っていて心地よい。",
+        "description": "It's rather shiny and nice to hold.",
         "price": 1100
     },
     "taaffeite": {
         "type": "object",
         "name": "ターフェアイト",
-        "description": "少し価値のある、素敵な紫色の宝石だと思う。",
+        "description": "A nice purple gemstone that is somewhat valuable I guess.",
         "price": 1220
     },
     "ruby": {
         "type": "object",
         "name": "ルビー",
-        "description": "リングやペンダント作りに使える、とても素敵な宝石。",
+        "description": "A very nice gemstone that can be used to made rings or pendants.",
         "price": 1300
     },
     "rubygem": {
         "type": "object",
         "name": "ルビーの宝石",
-        "description": "見事に研磨された石。実際に素敵なものを作るのに使うことができる。",
+        "description": "A nicely chiseled piece of rock that can actually be used to make fancy things with..",
         "price": 1300
     },
     "peridot": {
         "type": "object",
         "name": "ペリドット",
-        "description": "少し価値のある、素敵な緑色の宝石だと思う。",
+        "description": "A nice green gemstone that is somewhat valuable I guess.",
         "price": 1300
     },
     "opal": {
         "type": "object",
         "name": "オパール",
-        "description": "少し価値のある、素敵な宝石だと思う。",
+        "description": "A nice gemstone that is somewhat valuable I guess.",
         "price": 1300
     },
     "emerald": {
         "type": "object",
         "name": "エメラルド",
-        "description": "リングやペンダント作りに使える、とても素敵な宝石。",
+        "description": "A very nice gemstone that can be used to made rings or pendants.",
         "price": 1400
     },
     "amethyst": {
         "type": "object",
         "name": "アメジスト",
-        "description": "少し価値のある、素敵な紫色の宝石だと思う。",
+        "description": "A nice purple gemstone that is somewhat valuable I guess.",
         "price": 1500
     },
     "bluelily": {
         "type": "object",
         "name": "青いユリ",
-        "description": "青いユリ。クラフトに使うことができる花。",
+        "description": "A blue lily, a flower that can be used for crafting stuff.",
         "price": 100
     },
     "stew": {
         "type": "object",
         "name": "トマトシチュー",
-        "description": "トマトとキノコ、そしてボウルで作られたシチュー。",
+        "description": "A stew composed of tomato, mushrooms, and a bowl.",
         "edible": true,
         "mediumBowl": true,
         "plugin": "healingitem",
@@ -9212,7 +9212,7 @@
     "stew2": {
         "type": "object",
         "name": "コーンシチュー",
-        "description": "かなり食べ応えのあるシチュー。現在手に入る中では最高のシチューかもしれない。",
+        "description": "A very filling stew, possibly the best stew currently available.",
         "edible": true,
         "mediumBowl": true,
         "plugin": "healingitem",
@@ -9222,142 +9222,142 @@
     "mushroom1": {
         "type": "object",
         "name": "しいたけ",
-        "description": "料理に使えるキノコ。",
+        "description": "A mushroom that can be used for cooking.",
         "price": 250
     },
     "mushroom2": {
         "type": "object",
         "name": "ベニタケ",
-        "description": "料理に使えるキノコ。",
+        "description": "A mushroom that can be used for cooking.",
         "price": 250
     },
     "mushroom3": {
         "type": "object",
         "name": "クリオシタス",
-        "description": "料理に使えるキノコ。",
+        "description": "A mushroom that can be used for cooking.",
         "price": 250
     },
     "mushroom4": {
         "type": "object",
         "name": "松茸",
-        "description": "料理に使えるキノコ。",
+        "description": "A mushroom that can be used for cooking.",
         "price": 250
     },
     "mushroom5": {
         "type": "object",
         "name": "コルチナリウス",
-        "description": "料理に使えるキノコ。",
+        "description": "A mushroom that can be used for cooking.",
         "price": 250
     },
     "mushroom6": {
         "type": "object",
         "name": "紫のコルト茸",
-        "description": "料理に使えるキノコ。",
+        "description": "A mushroom that can be used for cooking.",
         "price": 250
     },
     "hilt1": {
         "type": "object",
         "name": "柄",
-        "description": "特定の金属と組み合わせて剣を作るのに使えるかもしれない。",
+        "description": "May be used with certain metals to produce a sword.",
         "price": 1000
     },
     "hilt2": {
         "type": "object",
         "name": "柄",
-        "description": "特定の金属と組み合わせて剣を作るのに使えるかもしれない。",
+        "description": "May be used with certain metals to produce a sword.",
         "price": 1000
     },
     "ratpet": {
         "type": "pet",
         "name": "ラットペット",
         "pet": "rat",
-        "description": "あなたについてくる、小さくて可愛いネズミ。",
+        "description": "A little cute rat that follows you around.",
         "price": 1000
     },
     "rathatpet": {
         "type": "pet",
         "name": "ラット帽子ペット",
         "pet": "rathat",
-        "description": "小さくて可愛い帽子をかぶった、あなたについてくる可愛いネズミ。",
+        "description": "A little cute rat with a little cute hat that follows you around.",
         "price": 1000
     },
     "ratballoonpet": {
         "type": "pet",
         "name": "ラット風船ペット",
         "pet": "ratballoon",
-        "description": "風船に結び付けられた可愛いネズミ…ちょっと待って、何それ？",
+        "description": "A cute little rat tied to a balloon... Wait what?",
         "price": 1000
     },
     "arcanahypercube": {
         "type": "object",
         "name": "アルカンのハイパーキューブ",
-        "description": "うわ、なんでこんなに爆速で動いてるんだ？",
+        "description": "Yoo why we going so frickin fast?",
         "price": 1000
     },
     "ettispinefruit": {
         "type": "object",
         "name": "エッティ・スパインフルーツ",
-        "description": "美味しそうな麺のように見える…サイコパス向けの。",
+        "description": "Kinda looks like a tasty noodle... for sociopaths.",
         "price": 1000
     },
     "galaxylilies": {
         "type": "object",
         "name": "銀河のユリ",
-        "description": "銀河はどこにでも存在すると言われている。どうやら地面にひとつ見つけたようだ、なんて不用心な。",
+        "description": "They say that galaxies exsist everywhere looks like you found one on the ground, how careless.",
         "price": 1000
     },
     "godscroissant": {
         "type": "object",
         "name": "神のクロワッサン",
-        "description": "自然界で最も天国的な味だと言われている。残念ながら猛毒だ。",
+        "description": "Said to have the most heavenly taste in nature. Unfortunately it is very poisonous.",
         "price": 1000
     },
     "stellarcluster": {
         "type": "object",
         "name": "星団",
-        "description": "太陽への過度な露出による奇妙な突然変異で形成されたと言われている。なかなか印象的だ。",
+        "description": "They say this is formed by an odd mutation from the over exposure to the sun, it's quite impressive",
         "price": 1000
     },
     "harmoniccrossband": {
         "type": "object",
         "name": "ハーモニック・クロスバンド",
-        "description": "見つけられる唯一の平穏は、すべてを投げ捨てることによってのみだと言われている…やめておいた方がいい。",
+        "description": "They say the only peace that can be found is by throwing everything away... don't do it.",
         "price": 1000
     },
     "livinganchorroot": {
         "type": "object",
         "name": "生ける錨の根",
-        "description": "あなたが今まで持とうとした中で、間違いなく最も重い植物。持ち歩く価値があるのか、一度考えた方がいい。",
+        "description": "By far the heaviest plant you will ever try to take. It must be asked if it's worth it to carry it around.",
         "price": 1000
     },
     "manaberry": {
         "type": "object",
         "name": "マナベリー",
-        "description": "ある魔法使いが、たった一口味わうためだけに町をひとつ滅ぼしたという話を聞いたことがある。可哀想に、食べる前にローブに足を滑らせて死んでしまったらしい。",
+        "description": "I heard a story about a wizard that killed an entire town just to taste one. Too bad he slipped on his tunic and died before he could eat it.",
         "price": 1000
     },
     "nexuscross": {
         "type": "object",
         "name": "ネクサスクロス",
-        "description": "死者と共に埋葬されると、その魂は神の域に昇華すると言われている。何をバカな。",
+        "description": "Legend says that if buried with the dead their souls will ascend to godhood. What a crock",
         "price": 1000
     },
     "orchardsbane": {
         "type": "object",
         "name": "果樹園の災い",
-        "description": "自分の果樹園でこれを見つけたら注意した方がいい。あなたの作物の命か、あるいは呪われた雑草の最初の目撃者になるかのどちらかだ。",
+        "description": "If found in one's orchard be warry as either it is your crop's life or the first witness to the cursed weed.",
         "price": 1000
     },
     "wartberries": {
         "type": "object",
         "name": "いぼいぼベリー",
-        "description": "発見した場合はできるだけ早く医療機関に相談すること。用心するに越したことはない。",
+        "description": "If observed please seek medical attention as soon as possible. Can never be too careful.",
         "price": 1000
     },
     "zephyrsgaleblade": {
         "type": "object",
         "name": "ゼファーの疾風の刃",
-        "description": "その名前の通り、その形を完全に制御することはできない。しかし、そばにいるだけで心地よい。",
+        "description": "Much like its name sake, you can never quite control its form, but it's lovely to be in the presence of.",
         "price": 1000
     },
     "arrow": {
