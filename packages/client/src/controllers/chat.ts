@@ -14,6 +14,7 @@ export default class ChatController {
 
     private readonly fadingDuration = 5000;
     private fadingTimeout!: number | undefined;
+    private notifying = false;
 
     public constructor(private game: Game) {
         this.button.addEventListener('click', () => this.toggle());
@@ -64,6 +65,8 @@ export default class ChatController {
         element.style.color = colour || 'white';
         if (notify) element.style.fontWeight = 'bold';
 
+        this.notifying = !this.inputVisible();
+
         this.display();
 
         // Start the timeout for hiding the chatbox.
@@ -105,6 +108,14 @@ export default class ChatController {
 
     public toggle(): void {
         this.clearTimeout();
+
+        // If a notification is currently lingering on screen, the first press
+        // of the chat button simply dismisses it instead of opening the input.
+        if (this.notifying) {
+            this.notifying = false;
+            Util.fadeOut(this.chatBox);
+            return;
+        }
 
         if (this.inputVisible()) this.hide();
         else this.display(true);
@@ -185,7 +196,10 @@ export default class ChatController {
         this.clearTimeout();
 
         this.fadingTimeout = window.setTimeout(() => {
-            if (!this.inputVisible()) Util.fadeOut(this.chatBox);
+            if (!this.inputVisible()) {
+                Util.fadeOut(this.chatBox);
+                this.notifying = false;
+            }
         }, this.fadingDuration);
     }
 
