@@ -1,3 +1,12 @@
+import CraftingJa from './ja/crafting';
+import EnchantJa from './ja/enchant';
+import GuildsJa from './ja/guilds';
+import ItemJa from './ja/item';
+import MiscJa from './ja/misc';
+import ResourceJa from './ja/resource';
+import StoreJa from './ja/store';
+import GameJa from './ja/game';
+import WarpsJa from './ja/warps';
 import CraftingEn from './en/crafting';
 import EnchantEn from './en/enchant';
 import GuildsEn from './en/guilds';
@@ -72,6 +81,17 @@ import GameTl from './tl/game';
 import WarpsTl from './tl/warps';
 
 export let resources = {
+    ja: {
+        crafting: CraftingJa,
+        enchant: EnchantJa,
+        guilds: GuildsJa,
+        item: ItemJa,
+        misc: MiscJa,
+        resource: ResourceJa,
+        store: StoreJa,
+        game: GameJa,
+        warps: WarpsJa
+    },
     en: {
         crafting: CraftingEn,
         enchant: EnchantEn,
@@ -165,6 +185,7 @@ export let resources = {
 export type Locale = keyof typeof resources;
 
 export let locales: { [K in Locale]: string } = {
+    ja: 'ja-JP',
     en: 'en-US',
     de: 'de-DE',
     es: 'es-ES',
@@ -175,7 +196,7 @@ export let locales: { [K in Locale]: string } = {
     tl: 'tl-PH'
 } as const;
 
-export let defaultLocale = 'en' as const;
+export let defaultLocale = 'ja' as const;
 export let defaultResource = resources[defaultLocale];
 
 export let ns = Object.keys(defaultResource);
