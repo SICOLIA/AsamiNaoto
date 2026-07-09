@@ -452,6 +452,8 @@ export default class InputController {
         this.game.menu.hide();
 
         // Handle object interaction.
+        console.log('[DEBUG] click position', position);
+
         if (this.game.map.isObject(position.gridX, position.gridY)) {
             this.setInteractionTarget();
 
