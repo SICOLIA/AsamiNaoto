@@ -410,15 +410,6 @@ export default class Map {
     public isObject(x: number, y: number): boolean {
         let index = this.coordToIndex(x, y);
 
-        // TEMP DEBUG
-        console.log('[DEBUG] isObject check', {
-            x,
-            y,
-            index,
-            isInObjects: this.objects.includes(index),
-            objectsLength: this.objects.length
-        });
-
         return this.objects.includes(index);
     }
 
