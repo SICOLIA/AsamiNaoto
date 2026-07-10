@@ -1,117 +1,121 @@
 {
     "king": {
-        "name": "King",
+        "name": "王様",
         "text": [
-            "Welcome to the kingdom of Kaetram!",
-            "You have travelled long and far, and for that you have my respect."
+            "カエトラム王国へようこそ！",
+            "遠い道のりをよくぞここまで来た、その旅路に敬意を表そう。"
         ]
     },
-
     "king2": {
-        "name": "King"
+        "name": "王様"
     },
-
     "prisoner": {
-        "name": "Prisoner",
+        "name": "囚人",
         "text": [
-            "Oh hey there, it's been so long since I've seen a new face.",
-            "I've been trapped here for ages.",
-            "But you'll probably be fine to be honest.",
-            "I'm guessing you did something to get in here?",
-            "Let me let you in on a little secret.",
-            "This whole world is a prison.",
-            "I don't even think it's real.",
-            "I think it's just a simulation.",
-            "I think we're all just a simulation.",
-            "I think I'm just a simulation.",
-            "I think you're just a simulation.",
-            "Anyway, hang in there and when your time runs out,",
-            "You can just teleport back.",
-            "As for me, I'll stay here...",
-            "Forever..."
+            "おお、久しぶりに新しい顔を見たな。",
+            "私はここに何年も閉じ込められている。",
+            "だが正直、お前は大丈夫だろう。",
+            "何かやらかしてここに入れられたんだろう？",
+            "ちょっとした秘密を教えてやろう。",
+            "この世界全体が牢獄なんだ。",
+            "本当に実在しているとすら思えない。",
+            "ただのシミュレーションだと思う。",
+            "我々全員がシミュレーションなんだと思う。",
+            "私自身もシミュレーションなんだと思う。",
+            "お前もシミュレーションなんだと思う。",
+            "とにかく、頑張って耐えろ。時間が来たら",
+            "テレポートで戻れるからな。",
+            "私はといえば、ここに残るさ…",
+            "永遠に…"
         ]
     },
-
     "villagegirl": {
-        "name": "Wife",
-        "text": ["Please, call me Azaria."]
+        "name": "妻",
+        "text": [
+            "アザリアと呼んでください。"
+        ]
     },
-
     "villagegirl2": {
-        "name": "Village Girl",
-        "text": ["Hope you're having a good day!"]
+        "name": "村娘",
+        "text": [
+            "良い一日を過ごせますように！"
+        ]
     },
-
     "villagegirl3": {
-        "name": "Another Village Girl",
-        "text": ["How's yous doings?"]
+        "name": "別の村娘",
+        "text": [
+            "調子はどうですか？"
+        ]
     },
-
     "villagegirl4": {
-        "name": "Another Village Girl",
-        "text": ["How's yous doings?"]
+        "name": "別の村娘",
+        "text": [
+            "調子はどうですか？"
+        ]
     },
-
     "villagegirl5": {
-        "name": "Yet Another Village Girl",
-        "text": ["How's yous doings?"]
+        "name": "またしても村娘",
+        "text": [
+            "調子はどうですか？"
+        ]
     },
-
     "villagegirl6": {
-        "name": "Just Village Girl",
-        "text": ["How's yous doings?"]
+        "name": "ただの村娘",
+        "text": [
+            "調子はどうですか？"
+        ]
     },
-
     "villagegirl7": {
-        "name": "Village Girl",
-        "text": ["How's yous doings?"]
+        "name": "村娘",
+        "text": [
+            "調子はどうですか？"
+        ]
     },
-
     "forestnpc": {
-        "name": "Forester",
-        "text": ["Good day to you!"],
+        "name": "森番",
+        "text": [
+            "こんにちは！"
+        ],
         "store": "forester"
     },
-
     "miner": {
-        "name": "Miner",
-        "text": ["Leave me alone, I'm busy pretending to work!"],
+        "name": "鉱夫",
+        "text": [
+            "放っておいてくれ、仕事してるふりで忙しいんだ！"
+        ],
         "store": "miner"
     },
-
     "miner2": {
-        "name": "Yet Another Miner",
-        "text": ["Leave me alone, I'm busy pretending to work!"],
+        "name": "もう一人の鉱夫",
+        "text": [
+            "放っておいてくれ、仕事してるふりで忙しいんだ！"
+        ],
         "store": "miner"
     },
-
     "beachnpc": {
-        "name": "Bubba",
+        "name": "バブ",
         "text": [
-            "Well, thanks for the help.",
-            "Not really doing much but thanks regardless.",
-            "Though I did hear some crunbling east of here, a cave might've opened up.",
-            "This might just be an urban legend but it is said that an entire",
-            "underworld exists beneath the surface of this beach."
+            "いやあ、手伝ってくれてありがとう。",
+            "大したことはしてないけど、それでも感謝するよ。",
+            "そういえば、ここの東の方で何か崩れる音が聞こえたな、洞窟が開いたのかもしれない。",
+            "都市伝説かもしれないが、この浜辺の地下には",
+            "地底世界が広がっているという話だ。"
         ]
     },
-
     "agent": {
-        "name": "Secret Agent",
+        "name": "秘密捜査官",
         "text": [
-            "Hello there, would you be so kind as to assist me?",
-            "It seems I have stumbled upon this strange phenomenon.",
-            "You see, this cave I am heavily guarding appears to be",
-            "exhibiting a warm-hole like situation.",
-            "Regardless, I feel its best to send a stup-",
-            "I mean, brave adventurer in there rather than me."
+            "やあ、少し手伝ってもらえないか？",
+            "どうやら奇妙な現象に出くわしてしまってね。",
+            "実は、私が厳重に警備しているこの洞窟が",
+            "ワームホールのような状態になっているようなんだ。",
+            "とはいえ、そこに送り込むべきは間抜け-",
+            "いや、勇敢な冒険者の方だと思ってね、私よりも。"
         ]
     },
-
     "nyan": {
-        "name": "Nyan Cat (Stale Meme)"
+        "name": "ニャンキャット(懐かしのミーム)"
     },
-
     "rick": {
         "name": "Rick",
         "text": [
@@ -154,7 +158,6 @@
             "Inside we both know what's been going on..."
         ]
     },
-
     "rick2": {
         "name": "Rick",
         "text": [
@@ -197,273 +200,262 @@
             "Inside we both know what's been going on..."
         ]
     },
-
     "priest": {
-        "name": "Priest"
+        "name": "神父"
     },
-
     "guard": {
-        "name": "Guard",
-        "text": ["We're seriously busy at the moment."]
+        "name": "衛兵",
+        "text": [
+            "今は本当に忙しいんだ。"
+        ]
     },
-
     "guard2": {
-        "name": "Royal Guard",
-        "text": ["Any form of defiance will be met with death."]
+        "name": "近衛兵",
+        "text": [
+            "いかなる反抗も死をもって報いる。"
+        ]
     },
-
     "scientist": {
-        "name": "Scientist"
+        "name": "科学者"
     },
-
     "madscientist": {
-        "name": "Mad Scientisto"
+        "name": "マッドサイエンティスト"
     },
-
     "desertnpc": {
-        "name": "Billey"
+        "name": "ビリー"
     },
-
     "lavanpc": {
-        "name": "Dying Soldier",
-        "text": ["Thank you for all your help. I will perish in your absence."]
+        "name": "瀕死の兵士",
+        "text": [
+            "色々と助けてくれてありがとう。あなたがいなくなった後、私は息絶えるだろう。"
+        ]
     },
-
     "boxingman": {
-        "name": "Bike Lyson",
-        "text": ["Woosh."]
+        "name": "バイク・ライソン",
+        "text": [
+            "ヒュッ。"
+        ]
     },
-
     "vampire": {
-        "name": "Vampire"
+        "name": "ヴァンパイア"
     },
-
     "doctor": {
-        "name": "Doctor",
-        "text": ["I'm a doctor, not a magician."]
+        "name": "医者",
+        "text": [
+            "私は医者だ、魔法使いじゃない。"
+        ]
     },
-
     "oddeyecat": {
-        "name": "Odd-Eyed Cat"
+        "name": "オッドアイの猫"
     },
-
     "sorcerer": {
-        "name": "Sorcerer",
+        "name": "魔術師",
         "store": "sorcerer"
     },
-
     "coder": {
-        "name": "Programmer",
+        "name": "プログラマー",
         "text": [
-            "Well well, hello there. Seems you managed to esca- I mean,",
-            "find your way out of that tutorial.",
-            "Listen, your first task should be to discover the world around you.",
-            "Why don't you go talk to the villagers for starters?",
-            "After that, maybe we can look into getting you some tasks to do."
+            "おやおや、こんにちは。どうやら逃げ出す-いや、",
+            "あのチュートリアルを抜け出せたようだね。",
+            "さて、最初にやるべきは周りの世界を探索することだ。",
+            "手始めに村人たちに話しかけてみたらどうかな？",
+            "その後、何か仕事を探してあげられるかもしれない。"
         ]
     },
-
     "villager": {
-        "name": "Villager",
-        "text": ["Howdy!"]
-    },
-
-    "villager2": {
-        "name": "Villager",
-        "text": ["Howdy!"]
-    },
-
-    "villager3": {
-        "name": "Villager",
-        "text": ["Howdy!"]
-    },
-
-    "villager4": {
-        "name": "Villager",
-        "text": ["Howdy!"]
-    },
-
-    "octocat": {
-        "name": "Octocat",
+        "name": "村人",
         "text": [
-            "Hey there!",
-            "I am the Octocat, the programmer and I",
-            "are very well acquainted.",
-            "In case you did not know, Kaetram is completely open-source.",
-            "You can <a target=\"_blank\" href=\"https://github.com/Kaetram/Kaetram-Open\">check out the source on GitHub!</a>"
+            "やあ！"
         ]
     },
-
-    "soldier": {
-        "name": "Soldier"
+    "villager2": {
+        "name": "村人",
+        "text": [
+            "やあ！"
+        ]
     },
-
+    "villager3": {
+        "name": "村人",
+        "text": [
+            "やあ！"
+        ]
+    },
+    "villager4": {
+        "name": "村人",
+        "text": [
+            "やあ！"
+        ]
+    },
+    "octocat": {
+        "name": "オクトキャット",
+        "text": [
+            "やあ！",
+            "私はオクトキャット、プログラマーとは",
+            "とても仲がいいんだ。",
+            "知らなかったかもしれないが、Kaetramは完全にオープンソースなんだ。",
+            "<a target=\"_blank\" href=\"https://github.com/Kaetram/Kaetram-Open\">GitHubでソースコードを見てみて！</a>"
+        ]
+    },
+    "soldier": {
+        "name": "兵士"
+    },
     "fisherman": {
-        "name": "Fisherman",
+        "name": "漁師",
         "store": "fishingstore"
     },
-
     "octopus": {
-        "name": "Octopus"
+        "name": "タコ"
     },
-
     "mermaidnpc": {
-        "name": "Mermaid"
+        "name": "人魚"
     },
-
     "sponge": {
-        "name": "Sponge"
+        "name": "スポンジ"
     },
-
     "fairynpc": {
-        "name": "Fairy"
+        "name": "妖精"
     },
-
     "shepherdboy": {
-        "name": "Shepherd Boy"
+        "name": "羊飼いの少年"
     },
-
     "zombiegf": {
-        "name": "Zombie Girlfriend"
+        "name": "ゾンビの彼女"
     },
-
     "pirategirlnpc": {
-        "name": "Pirate Girl",
-        "text": ["Hi"]
+        "name": "海賊少女",
+        "text": [
+            "こんにちは"
+        ]
     },
-
     "bluebikinigirlnpc": {
-        "name": "Pretzel"
+        "name": "プレッツェル"
     },
-
     "redbikinigirlnpc": {
-        "name": "Flaris"
+        "name": "フラリス"
     },
-
     "iamverycoldnpc": {
-        "name": "Babushka",
+        "name": "バブーシュカ",
         "store": "ingredientsstore"
     },
-
     "iceelfnpc": {
-        "name": "Ice Elf"
+        "name": "氷のエルフ"
     },
-
     "elfnpc": {
-        "name": "Elf"
+        "name": "エルフ"
     },
-
     "snowshepherdboy": {
-        "name": "Sherpa",
-        "text": ["Hello dear adventurer!", "Hope you're enjoying the beautiful sights!"]
+        "name": "シェルパ",
+        "text": [
+            "こんにちは、親愛なる冒険者さん！",
+            "美しい景色を楽しんでもらえてるといいな！"
+        ]
     },
-
     "angelnpc": {
-        "name": "Angel"
+        "name": "天使"
     },
-
     "momangelnpc": {
-        "name": "Archangel"
+        "name": "大天使"
     },
-
     "superiorangelnpc": {
-        "name": "Mentor"
+        "name": "メンター"
     },
-
     "firstsonangelnpc": {
-        "name": "Angel"
+        "name": "天使"
     },
-
     "secondsonangelnpc": {
-        "name": "Superior Angel"
+        "name": "上級天使"
     },
-
     "mojojojonpc": {
-        "name": "Monky"
+        "name": "モンキー"
     },
-
     "ancientmanumentnpc": {
-        "name": "Ancient Monument"
+        "name": "古代の記念碑"
     },
-
     "vendingmachine": {
-        "name": "Enchantment Vendor",
+        "name": "エンチャント商人",
         "role": "enchanter"
     },
-
     "redstoremannpc": {
-        "name": "Banker",
+        "name": "銀行員",
         "role": "banker"
     },
-
     "purplestoremannpc": {
-        "name": "Kosmetics Vendor",
+        "name": "コスメティック商人",
         "store": "cosmetics"
     },
-
     "bluestoremannpc": {
-        "name": "Clerk",
+        "name": "店員",
         "store": "startshop"
     },
-
     "royalguard": {
-        "name": "Royal Guard",
-        "text": ["There shall be no trespassing!"]
+        "name": "近衛兵",
+        "text": [
+            "不法侵入は許さん！"
+        ]
     },
-
     "royalguard2": {
-        "name": "Royal Guard",
-        "text": ["There shall be no trespassing!"]
+        "name": "近衛兵",
+        "text": [
+            "不法侵入は許さん！"
+        ]
     },
-
     "royalguard3": {
-        "name": "Royal Guard",
-        "text": ["There shall be no trespassing!"]
+        "name": "近衛兵",
+        "text": [
+            "不法侵入は許さん！"
+        ]
     },
-
     "picklenpc": {
-        "name": "Sea Cucumber"
+        "name": "ナマコ"
     },
-
     "guildnpc": {
-        "name": "Guild Master"
+        "name": "ギルドマスター"
     },
-
     "santaelfnpc": {
-        "name": "Santa's Helper",
-        "text": ["What do you want? I'm busy being overworked."]
+        "name": "サンタの助手",
+        "text": [
+            "何の用だ？働かされすぎて忙しいんだ。"
+        ]
     },
-
     "oldlady": {
-        "name": "Old Lady",
-        "text": ["Hello there dear adventurer!", "Make sure you're careful on your adventures."]
+        "name": "老婦人",
+        "text": [
+            "こんにちは、親愛なる冒険者さん！",
+            "冒険では気をつけてくださいね。"
+        ]
     },
-
     "oldlady2": {
-        "name": "Old Lady"
+        "name": "老婦人"
     },
-
     "ratnpc": {
-        "name": "Rat",
-        "text": ["Squeak!"]
+        "name": "ネズミ",
+        "text": [
+            "チュー！"
+        ]
     },
-
     "blacksmith": {
-        "name": "Blacksmith",
-        "text": ["Hi!"]
+        "name": "鍛冶屋",
+        "text": [
+            "やあ！"
+        ]
     },
-
     "blacksmith2": {
-        "name": "Blacksmith",
-        "text": ["Hi!"]
+        "name": "鍛冶屋",
+        "text": [
+            "やあ！"
+        ]
     },
-
     "herbalist": {
-        "name": "Herby Mc. Herb",
-        "text": ["Hi!"]
+        "name": "ハーブ・マック・ハーブ",
+        "text": [
+            "やあ！"
+        ]
     },
     "rickgf": {
-        "name": "Lena",
-        "text": ["Oh, it's been so long since I've seen another soul.", "Have you seen my love, Rick?"]
+        "name": "レナ",
+        "text": [
+            "ああ、他の誰かに会うのは本当に久しぶりだわ。",
+            "私の恋人、リックを見なかった？"
+        ]
     }
 }
