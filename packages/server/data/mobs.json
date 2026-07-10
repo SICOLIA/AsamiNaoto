@@ -5483,7 +5483,7 @@
         }
     },
     "queenant": {
-        "name": "女王アリ",
+        "name": "ウララガール",
         "drops": [
             {
                 "key": "helmofliberty",
@@ -5540,7 +5540,7 @@
         }
     },
     "skydinosaur": {
-        "name": "フルグル",
+        "name": "相澤",
         "dropTables": [
             "ordinary",
             "shards",
@@ -5587,7 +5587,7 @@
         }
     },
     "squid": {
-        "name": "大イカ",
+        "name": "大沢カイト",
         "drops": [
             {
                 "key": "twilightgreataxe",
@@ -5641,7 +5641,7 @@
         }
     },
     "snowlady": {
-        "name": "雪の女王",
+        "name": "りり姫",
         "drops": [
             {
                 "key": "swashbuckler",
@@ -5692,7 +5692,7 @@
         }
     },
     "frostqueen": {
-        "name": "フロストクイーン",
+        "name": "佐々木玲奈",
         "drops": [
             {
                 "key": "timelessglaive",
@@ -5743,7 +5743,7 @@
         }
     },
     "eliminator": {
-        "name": "エリミネーター",
+        "name": "花村哲夫",
         "drops": [
             {
                 "key": "executionershammer",
@@ -5788,7 +5788,7 @@
         }
     },
     "santa": {
-        "name": "サンタ",
+        "name": "佐藤秀長",
         "dropTables": [
             "ordinary",
             "shards",
