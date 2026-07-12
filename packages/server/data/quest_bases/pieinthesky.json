@@ -1,29 +1,39 @@
 {
-    "name": "Pie in the Sky",
-    "description": "Dreamy desserts.|Patty Pie-maker dreams of a pie so light it floats. Help her create this culinary marvel.",
-    "rewards": ["floating-pie", "recipe-scroll"],
+    "name": "空に浮かぶパイ",
+    "description": "夢見るデザート。|パイ職人のパティは、ふわりと浮くほど軽いパイを夢見ている。この料理の驚異を作る手伝いをしてあげよう。",
+    "rewards": [
+        "floating-pie",
+        "recipe-scroll"
+    ],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "pattypie",
             "text": [
-                "I have a dream of a pie that floats! But I need cloud-fluff...",
-                "Could you ascend the Floating Peaks and grab me some?"
+                "浮かぶパイを夢見ているの！でも「雲のふわふわ」が必要なのよ…",
+                "浮遊山脈に登って、少し取ってきてもらえない？"
             ],
-            "completedText": ["Collect cloud-fluff from the Floating Peaks."]
+            "completedText": [
+                "浮遊山脈で雲のふわふわを集めるのだ。"
+            ]
         },
         "1": {
             "task": "talk",
             "npc": "cloudsprite",
-            "text": ["Oh my! You want some of my fluff?", "Only if you tickle me first! Tee-hee!"],
-            "completedText": ["Engage in a tickle fight with the Cloud Sprite!"]
+            "text": [
+                "あら大変！私のふわふわが欲しいの？",
+                "くすぐってくれたらいいわよ！てへへ！"
+            ],
+            "completedText": [
+                "雲の妖精とくすぐり合戦をするのだ！"
+            ]
         },
         "2": {
             "task": "talk",
             "npc": "pattypie",
             "text": [
-                "You've got it! Now to bake the masterpiece...",
-                "Voilà! A floating pie! And here's the recipe too."
+                "手に入れたのね！さあ、この傑作を焼き上げましょう…",
+                "できたわ！浮かぶパイよ！それとレシピもね。"
             ],
             "itemRewards": [
                 {
@@ -36,8 +46,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You've created culinary history! Relish your @crimson@floating-pie@green@ and perhaps bake your own with the recipe scroll.",
+                "title": "クエスト完了！",
+                "text": "@green@料理の歴史を作ったな！@crimson@浮かぶパイ@green@ を味わい、レシピの巻物で自分でも焼いてみるといい。",
                 "colour": "#33cc33"
             }
         }

@@ -1,30 +1,37 @@
 {
-    "name": "Gnome More Problems",
-    "description": "Tall tales.|Gary the Gnome claims he was once as tall as a giant! Retrieve his 'height potion' from the mischievous squirrels that stole it.",
-    "rewards": ["giant-hat", "3 acorns"],
+    "name": "ノーム、もっと問題を",
+    "description": "ほら話。|ノームのゲイリーは、かつて巨人ほど背が高かったと言い張っている！彼の「身長ポーション」を盗んだ、いたずら好きなリスたちから取り返してやろう。",
+    "rewards": [
+        "giant-hat",
+        "3 acorns"
+    ],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "garygnome",
             "text": [
-                "Ah, adventurer! I was once taller than the mightiest tree!",
-                "Those darn squirrels stole my height potion!",
-                "Would you help an old gnome out and get it back?"
+                "おお、冒険者よ！私はかつて、一番大きな木よりも高かったのだ！",
+                "あのけしからんリスどもが、私の身長ポーションを盗んでいったのだ！",
+                "老ノームを助けて、取り返してくれないか？"
             ],
-            "completedText": ["Retrieve the height potion from those sneaky squirrels."]
+            "completedText": [
+                "あのずる賢いリスたちから身長ポーションを取り返してくれ。"
+            ]
         },
         "1": {
             "task": "kill",
-            "mob": ["sneakysquirrel"],
+            "mob": [
+                "sneakysquirrel"
+            ],
             "mobCountRequirement": 5
         },
         "2": {
             "task": "talk",
             "npc": "garygnome",
             "text": [
-                "You got it! Watch as I become... still the same size.",
-                "Eh, probably expired. Thanks anyway!",
-                "Here, take this giant hat and some acorns!"
+                "取ってきてくれたか！さあ見ていろ、私が…変わらず同じ大きさのままだ。",
+                "ふむ、たぶん期限切れだったのだろう。それでもありがとう！",
+                "ほら、この巨人の帽子とどんぐりをいくつか持って行くといい！"
             ],
             "itemRewards": [
                 {
@@ -37,8 +44,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@Gary is still gnome-sized, but you've made a tiny friend for life! Enjoy your @crimson@giant-hat@green@ and acorns.",
+                "title": "クエスト完了！",
+                "text": "@green@ゲイリーは相変わらずノームサイズのままだが、お前は一生ものの小さな友達を作った！@crimson@巨人の帽子@green@ とどんぐりを楽しんでくれ。",
                 "colour": "#33cc33"
             }
         }

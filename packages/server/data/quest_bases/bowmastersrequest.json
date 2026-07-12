@@ -1,7 +1,10 @@
 {
-    "name": "The Grand Bowmaster's Request",
-    "description": "The Grand Bowmaster requires a special bow, one that's beyond ordinary. Help him craft the legendary Moonlit Bow.",
-    "rewards": ["Moonlit Bow Blueprint", "2500 Fletching experience"],
+    "name": "偉大なる弓匠の依頼",
+    "description": "偉大なる弓匠は、並外れた特別な弓を必要としている。伝説の「月光の弓」を作るのを手伝ってほしい。",
+    "rewards": [
+        "Moonlit Bow Blueprint",
+        "2500 Fletching experience"
+    ],
     "skillRequirements": {
         "fletching": 30
     },
@@ -10,21 +13,31 @@
             "task": "talk",
             "npc": "bowmaster",
             "text": [
-                "Adventurer! I need a bow made from the elusive Moonwood Tree.",
-                "Will you aid me in this endeavor?"
+                "冒険者よ！なかなか手に入らないムーンウッドの木で作った弓が必要なんだ。",
+                "この試みを手伝ってくれるか？"
             ],
-            "completedText": ["Seek the Moonwood Tree in the Midnight Grove."]
+            "completedText": [
+                "深夜の森でムーンウッドの木を探すのだ。"
+            ]
         },
         "1": {
             "task": "collect",
-            "itemRequirements": [{ "key": "moonwood", "count": 10 }],
-            "completedText": ["Return to the Bowmaster with the Moonwood."]
+            "itemRequirements": [
+                {
+                    "key": "moonwood",
+                    "count": 10
+                }
+            ],
+            "completedText": [
+                "ムーンウッドを持って弓匠のもとへ戻るのだ。"
+            ]
         },
         "2": {
             "task": "talk",
             "npc": "bowmaster",
-            "hasItemText": ["Ah, perfect! With this, I can teach you to craft the Moonlit Bow."],
-
+            "hasItemText": [
+                "おお、完璧だ！これがあれば、月光の弓の作り方を教えられる。"
+            ],
             "skillRewards": [
                 {
                     "key": "fletching",
@@ -32,8 +45,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You've been awarded @crimson@2500 Fletching experience@green@ and the @crimson@Moonlit Bow Blueprint@green@.",
+                "title": "クエスト完了！",
+                "text": "@green@@crimson@フレッチング経験値2500@green@ と @crimson@月光の弓の設計図@green@ を獲得した。",
                 "colour": "#33cc33"
             }
         }

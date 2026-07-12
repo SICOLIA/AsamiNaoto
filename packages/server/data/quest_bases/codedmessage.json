@@ -1,43 +1,55 @@
 {
-    "name": "The Coded Message",
-    "description": "Decipher the mysterious scroll.",
-    "rewards": ["500 Gold", "Scholar's Ring"],
+    "name": "暗号のメッセージ",
+    "description": "謎めいた巻物を解読せよ。",
+    "rewards": [
+        "500 Gold",
+        "Scholar's Ring"
+    ],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "oldscholar",
             "text": [
-                "Ah, young traveler! I've found this old scroll, but I can't seem to decode its message.",
-                "It might lead to an ancient treasure. Will you assist me?"
+                "おお、若き旅人よ！この古い巻物を見つけたのだが、メッセージを解読できないのだ。",
+                "古代の秘宝に繋がっているかもしれない。手伝ってくれるか？"
             ],
-            "completedText": ["Please decipher the coded scroll.", "I believe it hides a clue."]
+            "completedText": [
+                "暗号の巻物を解読してくれ。",
+                "何か手がかりが隠されていると思うのだ。"
+            ]
         },
         "1": {
             "task": "decode",
             "item": "mysteriousscroll",
-            "completedText": ["Once decoded, return to me with the message."]
+            "completedText": [
+                "解読できたら、メッセージを持って私のところへ戻ってくれ。"
+            ]
         },
         "2": {
             "task": "talk",
             "npc": "oldscholar",
             "hasItemText": [
-                "Fascinating! This indeed is a map. Let's find this treasure together!",
-                "Follow the clues and retrieve what's hidden."
+                "興味深い！これは間違いなく地図だ。一緒にこの秘宝を見つけよう！",
+                "手がかりを辿って、隠されているものを取り戻すのだ。"
             ],
-            "completedText": ["Return once you have found the treasure."]
+            "completedText": [
+                "秘宝を見つけたら戻ってきてくれ。"
+            ]
         },
         "3": {
             "task": "explore",
             "location": "ancientruins",
             "findItem": "ancientartifact",
-            "completedText": ["Return to the scholar with the artifact."]
+            "completedText": [
+                "遺物を持って学者のもとへ戻るのだ。"
+            ]
         },
         "4": {
             "task": "talk",
             "npc": "oldscholar",
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@The Coded Message@green@ quest and received @crimson@500 Gold@green@ and a @crimson@Scholar's Ring@green@.",
+                "title": "クエスト完了！",
+                "text": "@green@「@crimson@暗号のメッセージ@green@」クエストを終え、@crimson@500ゴールド@green@ と @crimson@学者のリング@green@ を手に入れた。",
                 "colour": "#33cc33"
             }
         }

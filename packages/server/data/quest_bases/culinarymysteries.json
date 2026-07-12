@@ -1,7 +1,10 @@
 {
-    "name": "Culinary Mysteries",
-    "description": "Chef Gustavo is known across the land for his delicious dishes. However, he's hit a roadblock trying to recreate a historic recipe. Can you help him solve this culinary conundrum?",
-    "rewards": ["Chef's Special Apron", "2500 Cooking experience"],
+    "name": "料理の謎",
+    "description": "シェフのグスタボは、その美味しい料理で国中に知られている。しかし、ある古い歴史的なレシピの再現に行き詰まっている。この料理の難問を解決する手伝いをしてくれないか？",
+    "rewards": [
+        "Chef's Special Apron",
+        "2500 Cooking experience"
+    ],
     "skillRequirements": {
         "cooking": 20
     },
@@ -10,23 +13,23 @@
             "task": "talk",
             "npc": "chefgustavo",
             "text": [
-                "Ah, a fellow cooking enthusiast! I've recently discovered an ancient recipe",
-                "that I've been trying to recreate. But it's missing some ingredients.",
-                "The recipe calls for a rare Moonlit Mushroom. Would you be able to fetch it for me?"
+                "おお、同じ料理好きか！最近、古代のレシピを見つけてね、",
+                "それを再現しようとしているのだが、材料がいくつか足りないのだ。",
+                "レシピには珍しい「月光キノコ」が必要だ。取ってきてもらえないか？"
             ],
             "completedText": [
-                "Have you found the Moonlit Mushroom?",
-                "It's crucial to the dish I'm trying to recreate."
+                "月光キノコは見つかったか？",
+                "再現しようとしている料理に欠かせないものなのだ。"
             ]
         },
         "1": {
             "task": "talk",
             "npc": "chefgustavo",
             "hasItemText": [
-                "Ah, the Moonlit Mushroom! Fantastic! But there's one more thing...",
-                "The recipe mentions a 'secret spice'. No one seems to know what it is.",
-                "However, old tales speak of a hermit living atop the snowy peaks who",
-                "might have knowledge about this. Could you consult him?"
+                "おお、月光キノコだ！素晴らしい！だが、もう一つあるのだ…",
+                "レシピには「秘密のスパイス」と書かれている。誰もそれが何なのか知らないようだ。",
+                "だが古い言い伝えによると、雪山の頂に住む隠者が",
+                "何か知っているかもしれない。彼に聞いてきてくれないか？"
             ],
             "itemRequirements": [
                 {
@@ -39,20 +42,23 @@
             "task": "talk",
             "npc": "snowyhermit",
             "text": [
-                "Ah, Chef Gustavo's 'secret spice'. It's not a spice at all!",
-                "It's the dried petal of a Frozen Rose, found deep within these mountains.",
-                "Retrieve it, and the recipe will be complete."
+                "ああ、グスタボシェフの「秘密のスパイス」か。あれはスパイスなどではないぞ！",
+                "この山々の奥深くで見つかる、「氷結バラ」の乾燥した花びらのことだ。",
+                "取ってくるのだ、そうすればレシピは完成するだろう。"
             ],
-            "completedText": ["The Frozen Rose is a rare flower.", "Take care when searching for it."]
+            "completedText": [
+                "氷結バラは珍しい花だ。",
+                "探す時は気をつけるのだぞ。"
+            ]
         },
         "3": {
             "task": "talk",
             "npc": "chefgustavo",
             "hasItemText": [
-                "The Frozen Rose petal! The final ingredient!",
-                "Now, watch as I create culinary history...",
-                "Thank you, dear adventurer. For your help, I bestow upon you",
-                "the Chef's Special Apron. May it aid you in all your culinary endeavors!"
+                "氷結バラの花びらだ！最後の材料だ！",
+                "さあ、見ているといい、私が料理の歴史を作るところを…",
+                "ありがとう、親愛なる冒険者よ。お前の助けへの礼として、",
+                "「シェフ特製エプロン」を授けよう。お前のあらゆる料理の旅路を助けてくれるだろう！"
             ],
             "itemRequirements": [
                 {
@@ -67,8 +73,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@Culinary Mysteries@green@. You've been awarded @crimson@2500@green@ Cooking experience and a @crimson@Chef's Special Apron@green@!",
+                "title": "クエスト完了！",
+                "text": "@green@「@crimson@料理の謎@green@」を終えた。@crimson@料理経験値2500@green@ と @crimson@シェフ特製エプロン@green@ を獲得した！",
                 "colour": "#33cc33"
             }
         }

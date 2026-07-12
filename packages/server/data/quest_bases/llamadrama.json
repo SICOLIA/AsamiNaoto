@@ -1,36 +1,51 @@
 {
-    "name": "Llama Drama",
-    "description": "Spit happens.|Larry's llama ran away after a silly argument about the best grass flavor. Help him find his spitting buddy.",
-    "rewards": ["llama-wool", "spit-proof cloak"],
+    "name": "リャマ騒動",
+    "description": "つばが飛ぶこともある。|ラリーのリャマは、どの草の味が一番かというくだらない口論の後、逃げ出してしまった。彼のつば飛ばし仲間を見つける手伝いをしてあげよう。",
+    "rewards": [
+        "llama-wool",
+        "spit-proof cloak"
+    ],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "larry",
             "text": [
-                "I just can't believe it! Lulu and I had such a petty squabble!",
-                "Please, find her for me. I think she headed towards the clover fields."
+                "信じられないよ！ルルと僕は、本当につまらない喧嘩をしてしまったんだ！",
+                "頼む、ルルを探してくれないか。クローバー畑の方へ向かったと思うんだ。"
             ],
-            "completedText": ["Locate Lulu in the clover fields."]
+            "completedText": [
+                "クローバー畑でルルを見つけるのだ。"
+            ]
         },
         "1": {
             "task": "talk",
             "npc": "lulu",
             "text": [
-                "*spits* You're here to bring me back, aren't you?",
-                "Tell Larry mint-flavored grass is superior, and I might consider it!"
+                "*つばを吐く* 私を連れ戻しに来たんでしょ？",
+                "ラリーに、ミント味の草の方が優れているって伝えてよ、そうしたら考えてあげてもいいわ！"
             ],
-            "completedText": ["Inform Larry of Lulu's demands."]
+            "completedText": [
+                "ルルの要求をラリーに伝えるのだ。"
+            ]
         },
         "2": {
             "task": "talk",
             "npc": "larry",
-            "text": ["Mint, really? I guess I can give it a try...", "Bring her back and I'll reward you!"],
-            "completedText": ["Lead Lulu back to Larry."]
+            "text": [
+                "ミント、本当に？まあ、試してみてもいいけど…",
+                "彼女を連れ戻してくれたら、お礼をするよ！"
+            ],
+            "completedText": [
+                "ルルをラリーのもとへ連れ戻すのだ。"
+            ]
         },
         "3": {
             "task": "talk",
             "npc": "lulu",
-            "text": ["Well, alright, if he's trying mint...", "Let's go back, and thanks!"],
+            "text": [
+                "まあ、いいわ、彼がミントを試すって言うなら…",
+                "戻りましょう、ありがとう！"
+            ],
             "itemRewards": [
                 {
                     "key": "llama-wool",
@@ -42,8 +57,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@Lulu and Larry are reunited, and it feels so good! Enjoy your @crimson@llama-wool@green@ and stay dry with the spit-proof cloak.",
+                "title": "クエスト完了！",
+                "text": "@green@ルルとラリーは再会し、とても幸せな気持ちだ！@crimson@リャマの毛@green@ を楽しみ、つば除けマントで快適に過ごすといい。",
                 "colour": "#33cc33"
             }
         }

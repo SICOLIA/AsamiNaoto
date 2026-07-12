@@ -1,33 +1,39 @@
 {
-    "name": "Mismatched Socks Saga",
-    "description": "Socks are missing...again.|Tired of always having mismatched socks? So is Timmy. He believes his socks are going on adventures without him. Help him find out where they're off to!",
-    "rewards": ["sockpuppet"],
+    "name": "片方だけの靴下騒動",
+    "description": "靴下がまたなくなった。|いつも靴下が片方だけになるのにうんざりしていない？ティミーもそうだ。彼は自分の靴下が、自分抜きで冒険に出かけていると信じている。どこへ行っているのか、突き止めるのを手伝ってあげよう！",
+    "rewards": [
+        "sockpuppet"
+    ],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "timmy",
             "text": [
-                "Hey there! My socks keep disappearing.",
-                "I've set up a little trap to find out where they go at night.",
-                "Can you help me spy on them?"
+                "やあ！僕の靴下がずっと消えていくんだ。",
+                "夜、どこへ行くのか突き止めるために、ちょっとした罠を仕掛けたんだ。",
+                "見張るのを手伝ってくれないか？"
             ],
-            "completedText": ["Spy on the socks."]
+            "completedText": [
+                "靴下を見張るのだ。"
+            ]
         },
         "1": {
             "task": "talk",
             "npc": "socktrap",
             "text": [
-                "You and Timmy lie in wait. As midnight strikes, the socks begin to... move?",
-                "They're dancing! And there's a sock party happening!"
+                "君とティミーは息を潜めて待つ。真夜中が来ると、靴下たちが…動き出した？",
+                "踊っている！靴下パーティーが開かれているんだ！"
             ],
-            "completedText": ["Join the sock party or tell Timmy?"]
+            "completedText": [
+                "靴下パーティーに参加するか、ティミーに伝えるか？"
+            ]
         },
         "2": {
             "task": "talk",
             "npc": "partysock",
             "text": [
-                "Welcome, honorary sock! We just needed to unwind. Get it? Unwind?",
-                "As a token of our appreciation for not blowing our cover, take this."
+                "ようこそ、名誉ある靴下よ！ただ、はめを外したかっただけなんだ。分かるだろ？「はめを外す」ってね。",
+                "俺たちの秘密をバラさなかったお礼に、これを受け取ってくれ。"
             ],
             "itemRewards": [
                 {
@@ -36,8 +42,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You've unraveled the @crimson@Mismatched Socks Saga@green@. You now have your very own sock puppet!",
+                "title": "クエスト完了！",
+                "text": "@green@「@crimson@片方だけの靴下騒動@green@」の謎を解き明かした。これで自分専用のソックパペットが手に入った！",
                 "colour": "#33cc33"
             }
         }

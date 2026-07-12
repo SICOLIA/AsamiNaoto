@@ -1,7 +1,10 @@
 {
-    "name": "Crystals of Yontil",
-    "description": "Mystic ores have been discovered deep within the Yontil Mines. Excavate and learn their secrets.",
-    "rewards": ["Access to Mystic Ore", "3500 Mining experience"],
+    "name": "ヨンティルの結晶",
+    "description": "ヨンティル鉱山の奥深くで、神秘的な鉱石が発見された。掘り出して、その秘密を学ぶのだ。",
+    "rewards": [
+        "Access to Mystic Ore",
+        "3500 Mining experience"
+    ],
     "skillRequirements": {
         "mining": 40
     },
@@ -9,19 +12,32 @@
         "0": {
             "task": "talk",
             "npc": "oldminer",
-            "text": ["Adventurer! The Yontil Mines hold mystic ores.", "I'll guide you if you can fetch them for me."],
-            "completedText": ["Descend into Yontil Mines."]
+            "text": [
+                "冒険者よ！ヨンティル鉱山には神秘の鉱石が眠っている。",
+                "取ってきてくれるなら案内してやろう。"
+            ],
+            "completedText": [
+                "ヨンティル鉱山へ降りるのだ。"
+            ]
         },
         "1": {
             "task": "collect",
-            "itemRequirements": [{ "key": "mysticore", "count": 5 }],
-            "completedText": ["Bring the Mystic Ores to the old miner."]
+            "itemRequirements": [
+                {
+                    "key": "mysticore",
+                    "count": 5
+                }
+            ],
+            "completedText": [
+                "神秘の鉱石を老鉱夫のもとへ持って行くのだ。"
+            ]
         },
         "2": {
             "task": "talk",
             "npc": "oldminer",
-            "hasItemText": ["You've done it! This ore is precious. Here's how you can best utilize it."],
-
+            "hasItemText": [
+                "やったな！この鉱石は貴重だ。最も上手な活用法を教えてやろう。"
+            ],
             "skillRewards": [
                 {
                     "key": "mining",
@@ -29,8 +45,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You've gained @crimson@Mystic Ore Knowledge@green@ and @crimson@3500 Mining experience@green@.",
+                "title": "クエスト完了！",
+                "text": "@green@「@crimson@神秘の鉱石の知識@green@」と @crimson@採掘経験値3500@green@ を獲得した。",
                 "colour": "#33cc33"
             }
         }

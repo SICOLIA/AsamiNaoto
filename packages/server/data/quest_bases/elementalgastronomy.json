@@ -1,28 +1,37 @@
 {
-    "name": "The Elemental Gastronomy",
-    "description": "Master Chef Elandrial seeks the ultimate ingredients.|Chef Elandrial believes that combining elements through cooking can create dishes with magical properties. To prove his theory, he seeks the assistance of a versatile adventurer to gather and craft the needed ingredients.",
-    "rewards": ["Elemental Dish", "Experience in Cooking, Fletching, and Magic"],
+    "name": "元素の美食学",
+    "description": "料理長エランドリアルは究極の食材を求めている。|エランドリアル料理長は、料理を通して元素を組み合わせることで、魔法の性質を持つ料理が作れると信じている。その理論を証明するため、多才な冒険者の助けを借りて必要な材料を集め、作り上げようとしている。",
+    "rewards": [
+        "Elemental Dish",
+        "Experience in Cooking, Fletching, and Magic"
+    ],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "elandrial",
             "text": [
-                "Ah, adventurer! I've heard tales of your versatility.",
-                "I have a theory that fusing elemental properties in food can create something extraordinary.",
-                "First, I need you to explore the Frozen Caves to find the Icecap Mushroom.",
-                "But be wary, the caves are known to be treacherous!"
+                "おお、冒険者よ！お前の多才ぶりは噂で聞いている。",
+                "料理に元素の性質を融合させれば、何か並外れたものが作れるという理論があってな。",
+                "まず、氷結洞窟を探索して「氷冠キノコ」を見つけてきてほしい。",
+                "だが気をつけろ、あの洞窟は危険なことで知られている！"
             ],
-            "completedText": ["The Frozen Caves await.", "Seek out the Icecap Mushroom."]
+            "completedText": [
+                "氷結洞窟がお前を待っている。",
+                "氷冠キノコを探すのだ。"
+            ]
         },
         "1": {
             "task": "talk",
             "npc": "elandrial",
             "hasItemText": [
-                "Perfect! Now, for the next ingredient.",
-                "We need an arrow with fiery properties. But not just any arrow, an arrow crafted with the Feather of a Phoenix.",
-                "You'll need to use your fletching skills to craft this arrow."
+                "完璧だ！では、次の材料だ。",
+                "炎の性質を持つ矢が必要だ。ただの矢ではなく、フェニックスの羽根で作った矢だ。",
+                "お前のフレッチング技術を使ってこの矢を作る必要がある。"
             ],
-            "completedText": ["Combine the Phoenix Feather with an arrow shaft.", "Craft the Fiery Phoenix Arrow."],
+            "completedText": [
+                "フェニックスの羽根を矢柄と組み合わせるのだ。",
+                "「炎のフェニックスの矢」を作るのだ。"
+            ],
             "itemRequirements": [
                 {
                     "key": "icecapmushroom",
@@ -34,17 +43,23 @@
             "task": "fletching",
             "item": "fieryphoenixarrow",
             "npc": "elandrial",
-            "completedText": ["Once you've crafted the Fiery Phoenix Arrow,", "return to me."]
+            "completedText": [
+                "炎のフェニックスの矢を作り終えたら、",
+                "私のところへ戻ってくれ。"
+            ]
         },
         "3": {
             "task": "talk",
             "npc": "elandrial",
             "hasItemText": [
-                "Magnificent! Now, for the final touch, we will imbue this arrow with an enchantment.",
-                "Use your magic to cast a spell of levitation on this arrow.",
-                "It will become the Levitating Fiery Phoenix Arrow!"
+                "見事だ！では、仕上げとして、この矢にエンチャントを付与しよう。",
+                "お前の魔法で、この矢に浮遊の呪文をかけるのだ。",
+                "「浮遊する炎のフェニックスの矢」になるだろう！"
             ],
-            "completedText": ["Utilize your magic.", "Craft the Levitating Fiery Phoenix Arrow."],
+            "completedText": [
+                "魔法を使うのだ。",
+                "「浮遊する炎のフェニックスの矢」を作るのだ。"
+            ],
             "itemRequirements": [
                 {
                     "key": "fieryphoenixarrow",
@@ -57,17 +72,23 @@
             "spell": "levitation",
             "item": "levitatingfieryphoenixarrow",
             "npc": "elandrial",
-            "completedText": ["Once enchanted, return to me with the arrow.", "We're close to completing the dish!"]
+            "completedText": [
+                "エンチャントできたら、矢を持って私のところへ戻ってくれ。",
+                "料理の完成まであと少しだ！"
+            ]
         },
         "5": {
             "task": "talk",
             "npc": "elandrial",
             "hasItemText": [
-                "This is it, adventurer! The final step.",
-                "Now, using your cooking skills, combine the Icecap Mushroom and the Levitating Fiery Phoenix Arrow.",
-                "The result will be a dish never seen before!"
+                "これだ、冒険者よ！最後のステップだ。",
+                "さあ、お前の料理技術を使って、氷冠キノコと浮遊する炎のフェニックスの矢を組み合わせるのだ。",
+                "その結果、これまでにない料理が生まれるだろう！"
             ],
-            "completedText": ["Unite the elements through cooking.", "Create the Elemental Dish."],
+            "completedText": [
+                "料理を通して元素を統合するのだ。",
+                "「元素の料理」を作るのだ。"
+            ],
             "itemRequirements": [
                 {
                     "key": "levitatingfieryphoenixarrow",
@@ -80,8 +101,8 @@
             "recipe": "elementaldish",
             "npc": "elandrial",
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@The Elemental Gastronomy@green@. You've been awarded an @crimson@Elemental Dish@green@ and experience in Cooking, Fletching, and Magic!",
+                "title": "クエスト完了！",
+                "text": "@green@「@crimson@元素の美食学@green@」を終えた。@crimson@元素の料理@green@ と、料理・フレッチング・魔法の経験値を獲得した！",
                 "colour": "#33cc33"
             }
         }

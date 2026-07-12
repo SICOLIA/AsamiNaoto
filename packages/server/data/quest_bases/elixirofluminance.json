@@ -1,7 +1,10 @@
 {
-    "name": "The Elixir of Luminance",
-    "description": "Alchemy Master Alden needs rare ingredients to craft the Elixir of Luminance. Aid him and learn the secrets of the potion.",
-    "rewards": ["Elixir of Luminance Recipe", "3200 Alchemy experience"],
+    "name": "光輝の霊薬",
+    "description": "錬金術師の長老アルデンは「光輝の霊薬」を作るための希少な材料を必要としている。彼を助け、そのポーションの秘密を学ぶのだ。",
+    "rewards": [
+        "Elixir of Luminance Recipe",
+        "3200 Alchemy experience"
+    ],
     "skillRequirements": {
         "alchemy": 38
     },
@@ -10,22 +13,31 @@
             "task": "talk",
             "npc": "alden",
             "text": [
-                "Adventurer, I require assistance to craft the Elixir of Luminance.",
-                "Can you fetch the Moonshade Herb for me?"
+                "冒険者よ、光輝の霊薬を作るのに助けが必要なのだ。",
+                "月影のハーブを取ってきてくれないか？"
             ],
-            "completedText": ["Seek out the elusive Moonshade Herb."]
+            "completedText": [
+                "なかなか手に入らない月影のハーブを探すのだ。"
+            ]
         },
         "1": {
             "task": "collect",
-            "itemRequirements": [{ "key": "moonshadeherb", "count": 3 }],
-            "completedText": ["Return to Master Alden with the herbs."]
+            "itemRequirements": [
+                {
+                    "key": "moonshadeherb",
+                    "count": 3
+                }
+            ],
+            "completedText": [
+                "ハーブを持ってアルデン長老のもとへ戻るのだ。"
+            ]
         },
         "2": {
             "task": "talk",
             "npc": "alden",
             "hasItemText": [
-                "You've done it! Now, observe as I craft the Elixir.",
-                "I shall share its secret with you."
+                "やったな！では、私が霊薬を作るところをよく見ておくのだ。",
+                "その秘密をお前に教えてやろう。"
             ],
             "skillRewards": [
                 {
@@ -34,8 +46,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You've unlocked the @crimson@Elixir of Luminance Recipe@green@ and gained @crimson@3200 Alchemy experience@green@.",
+                "title": "クエスト完了！",
+                "text": "@green@「@crimson@光輝の霊薬のレシピ@green@」を解放し、@crimson@錬金術経験値3200@green@ を獲得した。",
                 "colour": "#33cc33"
             }
         }
