@@ -1,34 +1,37 @@
 {
-    "name": "Welcome to Kaetram",
-    "description": "Teaching you the very basics of Kaetram.|This tutorial will teach you how to move around, attack, interact with objects and use ranged weapons. Follow the arrows and talk to the NPCs if you are stuck.",
-    "rewards": ["Knowledge of the game :)"],
+    "name": "カエトラムへようこそ",
+    "description": "カエトラムの基本を教えます。|このチュートリアルでは、移動、攻撃、オブジェクトとのインタラクション、遠距離武器の使い方を学びます。矢印に従い、困ったらNPCに話しかけてください。",
+    "rewards": [
+        "ゲームの知識 :)"
+    ],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "coder",
             "text": [
-                "Oh, hello! Welcome! Click on me again!",
-                "You're getting the hang of it, keep clicking.",
-                "Perfect, seems like you get the gist of it.",
-                "I am the coder, I created this world, and, well, you.",
-                "Listen, to me you are just a more sophisticated AI.",
-                "So I'm gonna need you to get used to this world and help me out.",
-                "You see, I created these previous AIs, but they went rogue.",
-                "They are now trying to destroy this world.",
-                "So, I created you in order to stop them and save us all.",
-                "Before we get to any of that, we need to teach you some of the basics.",
-                "You can move around by clicking, or using WASD keys, or arrow keys.",
-                "Make sure you talk to everyone you meet fully, you never know what you might learn.",
-                "Whenever you feel like you're ready, head on outside and talk to the guard."
+                "おお、こんにちは！ようこそ！もう一度私をクリックしてみて。",
+                "コツを掴んできたね、その調子でクリックを続けて。",
+                "完璧だ、要領を掴めてきたようだね。",
+                "私はプログラマー、この世界を作った者だ。そして、まあ、君のこともね。",
+                "いいかい、私にとって君はもう少し高性能なAIというだけの存在だ。",
+                "だから、この世界に慣れて、私を手伝ってもらう必要があるんだ。",
+                "実は、これより前にもAIを作ったことがあるんだが、それらは暴走してしまってね。",
+                "今、彼らはこの世界を破壊しようとしている。",
+                "だから私は、彼らを止めて我々全員を救うために君を作ったんだ。",
+                "その話をする前に、まずは基本を教えないとね。",
+                "クリック、またはWASDキーや矢印キーで移動できるよ。",
+                "出会った人には必ずしっかり話しかけてね、何が学べるか分からないから。",
+                "準備ができたと思ったら、外に出て衛兵に話しかけてくれ。"
             ],
-            "completedText": ["Whenever you are ready, head outside and talk to the guard."],
+            "completedText": [
+                "準備ができたら、外に出て衛兵に話しかけてくれ。"
+            ],
             "pointer": {
                 "type": 0,
                 "x": 134,
                 "y": 559
             }
         },
-
         "1": {
             "task": "door",
             "pointer": {
@@ -37,53 +40,49 @@
                 "y": 569
             }
         },
-
         "2": {
             "task": "talk",
             "npc": "guard",
             "text": [
-                "Oh great anot- nevermind.",
-                "Welcome to the world of Kaetram.",
-                "I'm here to teach you about skills and combat.",
-                "Skills are activities that allow you to collect items and gain experience.",
-                "You can use the experience to discover new areas and engage in more complex tasks.",
-                "Before we get to any combat-related skills, I want you to cut two trees for me.",
-                "Here, take this axe, open your inventory, and equip it."
+                "ああ、また新入りか、いや、なんでもない。",
+                "カエトラムの世界へようこそ。",
+                "私はここで、スキルと戦闘について教える係だ。",
+                "スキルとは、アイテムを集めたり経験値を得たりできる活動のことだ。",
+                "その経験値を使って、新しいエリアを発見したり、より複雑な作業に取り組んだりできる。",
+                "戦闘関連のスキルに入る前に、まず木を2本切ってもらいたい。",
+                "ほら、この斧を受け取って、インベントリを開いて装備するんだ。"
             ],
-
-            "completedText": ["Go on, cut two trees for me."],
-
+            "completedText": [
+                "さあ、木を2本切ってくるんだ。"
+            ],
             "itemRewards": [
                 {
                     "key": "bronzeaxe",
                     "count": 1
                 }
             ],
-
             "pointer": {
                 "type": 0,
                 "x": 60,
                 "y": 602
             }
         },
-
         "3": {
             "task": "tree",
             "tree": "tutorialoak",
             "treeCount": 2
         },
-
         "4": {
             "task": "npc",
             "npc": "guard",
-
             "text": [
-                "Okay perfect, you can use logs to make sticks.",
-                "Take this knife and use it to fletch some sticks.",
-                "Simply click on the item in your inventory and select the interact option."
+                "よし完璧だ、丸太を使えば棒を作れる。",
+                "このナイフを受け取って、丸太から棒をフレッチングするのに使うんだ。",
+                "インベントリのアイテムをクリックして、インタラクトのオプションを選ぶだけだ。"
             ],
-            "completedText": ["Go on, fletch the logs into sticks for me."],
-
+            "completedText": [
+                "さあ、丸太を棒にフレッチングしてくるんだ。"
+            ],
             "itemRewards": [
                 {
                     "key": "knife",
@@ -96,26 +95,23 @@
                 "y": 602
             }
         },
-
         "5": {
             "task": "talk",
             "npc": "guard",
-
             "hasItemText": [
-                "Awesome, just bear with me a little longer.",
-                "I know it's boring but I am obligated to teach you this.",
-                "Now take this fishing pole and go catch two shrimps for me."
+                "素晴らしい、もう少しだけ付き合ってくれ。",
+                "退屈なのは分かっているが、これを教える義務があるんでね。",
+                "さあ、この釣竿を受け取って、エビを2匹釣ってきてくれ。"
             ],
-
-            "completedText": ["Go on, catch two shrimps for me."],
-
+            "completedText": [
+                "さあ、エビを2匹釣ってくるんだ。"
+            ],
             "itemRequirements": [
                 {
                     "key": "stick",
                     "count": 1
                 }
             ],
-
             "itemRewards": [
                 {
                     "key": "stick",
@@ -127,40 +123,39 @@
                 }
             ]
         },
-
         "6": {
             "task": "fish",
             "fish": "tutorialshrimpspot",
             "fishCount": 2
         },
-
         "7": {
             "task": "talk",
             "npc": "guard",
-
             "text": [
-                "Great, one more thing and we're done with the boring stuff.",
-                "It's as much of a chore for me as it is for you so don't worry.",
-                "Go click on that cooking pot and cook these shrimps for me."
+                "よし、あと一つで退屈な作業は終わりだ。",
+                "君にとってと同じくらい、私にとっても面倒な作業だから心配しないでくれ。",
+                "あの調理鍋をクリックして、このエビを調理してくれ。"
             ],
-            "completedText": ["Go on, cook the shrimps for me."],
+            "completedText": [
+                "さあ、エビを調理してくるんだ。"
+            ],
             "pointer": {
                 "type": 0,
                 "x": 60,
                 "y": 602
             }
         },
-
         "8": {
             "task": "talk",
             "npc": "guard",
-
             "hasItemText": [
-                "Awesome, you're done with the boring stuff.",
-                "Head down that suspicious ladder to the left and meet me in the cave.",
-                "Don't question it, just trust me."
+                "素晴らしい、これで退屈な作業は終わりだ。",
+                "左にある怪しいはしごを降りて、洞窟で私と会おう。",
+                "疑問に思わず、とにかく私を信じてくれ。"
             ],
-            "completedText": ["Head down the ladder and meet me in the cave."],
+            "completedText": [
+                "はしごを降りて、洞窟で私と会おう。"
+            ],
             "itemRequirements": [
                 {
                     "key": "cookedshrimp",
@@ -168,7 +163,6 @@
                 }
             ]
         },
-
         "9": {
             "task": "door",
             "pointer": {
@@ -177,18 +171,18 @@
                 "y": 612
             }
         },
-
         "10": {
             "task": "talk",
             "npc": "guard",
-
             "text": [
-                "Okay, now listen closely. Our budget is running low.",
-                "So we need to hurry this up. I have to teach you about combat.",
-                "Because of said budget, I can only give the very basics.",
-                "Here is a copper sword, I want you to slay 5 rats for me."
+                "よし、よく聞いてくれ。予算が底をつきかけているんだ。",
+                "だから急いで進めないと。戦闘について教えないといけない。",
+                "その予算の都合で、ごく基本的なことしか教えられない。",
+                "これが銅の剣だ、ネズミを5匹倒してきてもらいたい。"
             ],
-            "completedText": ["Go on, slay 3 rats for me."],
+            "completedText": [
+                "さあ、ネズミを3匹倒してくるんだ。"
+            ],
             "itemRewards": [
                 {
                     "key": "coppersword",
@@ -201,27 +195,28 @@
                 "y": 541
             }
         },
-
         "11": {
             "task": "kill",
-            "mob": ["rat"],
+            "mob": [
+                "rat"
+            ],
             "mobCountRequirement": 3
         },
-
         "12": {
             "task": "talk",
             "npc": "guard",
-
             "text": [
-                "Wow I actually didn't expect you to be competent.",
-                "You see how slow that was? That's because you don't have any fancy equipments.",
-                "Once you're out of here you'll be able to get better equipments.",
-                "Anyway, last thing I can teach you within my curriculum is archery.",
-                "For the sake of this tutorial, you will not need to equip any arrows.",
-                "Plus it saves us a ton of money for the arrows we don't have to give you.",
-                "So anyway, I want you to kill 2 crabs with this bow."
+                "おお、正直、君がここまでできるとは思っていなかったよ。",
+                "今のがどれだけ遅かったか分かるか？それはまともな装備を持っていないからだ。",
+                "ここを出れば、もっと良い装備が手に入るようになる。",
+                "とにかく、私のカリキュラムで教えられる最後のことはアーチェリーだ。",
+                "このチュートリアルでは、矢を装備する必要はない。",
+                "おかげで、渡す必要のない矢の分のお金も節約できるというわけだ。",
+                "というわけで、この弓でカニを2匹倒してきてほしい。"
             ],
-            "completedText": ["Go on, kill 2 crabs for me."],
+            "completedText": [
+                "さあ、カニを2匹倒してくるんだ。"
+            ],
             "itemRewards": [
                 {
                     "key": "woodenbow",
@@ -234,33 +229,30 @@
                 "y": 541
             }
         },
-
         "13": {
             "task": "kill",
-            "mob": ["crab"],
+            "mob": [
+                "crab"
+            ],
             "mobCountRequirement": 2
         },
-
         "14": {
             "task": "talk",
             "npc": "guard",
-
             "text": [
-                "That will be all. The rest is up to you to discover.",
-                "You may leave the tutorial by going through the portal."
+                "これで全部だ。あとは自分で発見していってくれ。",
+                "ポータルを通れば、チュートリアルから出られる。"
             ],
             "completedText": [
-                "That will be all. The rest is up to you to discover.",
-                "You may leave the tutorial by going through the portal."
+                "これで全部だ。あとは自分で発見していってくれ。",
+                "ポータルを通れば、チュートリアルから出られる。"
             ],
-
             "pointer": {
                 "type": 0,
                 "x": 29,
                 "y": 541
             }
         },
-
         "15": {
             "task": "door",
             "pointer": {
