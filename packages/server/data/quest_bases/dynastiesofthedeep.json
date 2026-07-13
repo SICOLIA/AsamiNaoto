@@ -1,63 +1,76 @@
 {
-    "name": "Dynasties of the Deep",
-    "description": "Underwater politics.|The sea cucumber, a former antagonist, is actually King Cucumis of the Seaweed Dynasty. He needs your help to strengthen ties with the other underwater royal families and possibly uncover a conspiracy.",
-    "rewards": ["royalseal", "5000 gold"],
+    "name": "深海の王朝",
+    "description": "海底の政治。|かつての敵役だったナマコは、実は「海藻王朝」のキュカミス王だった。彼は他の海底の王族たちとの関係を強化し、陰謀を暴くための助けを必要としている。",
+    "rewards": [
+        "royalseal",
+        "5000 gold"
+    ],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "kingcucumis",
             "text": [
-                "Ah, it's you again. Our previous encounter was... unfortunate.",
-                "I need an outsider's help, someone uninvolved in our politics.",
-                "Three other royal families rule these waters with me. Can you act as my envoy?"
+                "ああ、また会ったな。前回の出会いは…不幸なものだった。",
+                "私は部外者の助けが必要なのだ、我らの政治に関わっていない誰かの。",
+                "他に3つの王族がこの海を私と共に治めている。私の使者になってくれないか？"
             ],
-            "completedText": ["Meet with representatives of the three royal families."]
+            "completedText": [
+                "3つの王族の代表者と会うのだ。"
+            ]
         },
         "1": {
             "task": "talk",
             "npc": "princesscoral",
             "text": [
-                "Greetings, envoy of King Cucumis. I am Princess Coral of the Reef Dynasty.",
-                "A clandestine group opposes the unity of our families.",
-                "Find out who they are and I shall consider an alliance."
+                "ようこそ、キュカミス王の使者よ。私は珊瑚礁王朝のコーラル王女です。",
+                "秘密の一団が、我らの家族の団結に反対しているのです。",
+                "彼らが誰なのか突き止めてくれれば、同盟を考えましょう。"
             ],
-            "completedText": ["Investigate the clandestine group."]
+            "completedText": [
+                "秘密の一団を調査するのだ。"
+            ]
         },
         "2": {
             "task": "talk",
             "npc": "lordkelp",
             "text": [
-                "I am Lord Kelp of the Tidal Dynasty. Cucumis and I have our differences.",
-                "Yet, a bigger threat emerges from the abyss.",
-                "Retrieve a dark pearl from the abyss, and I'll hear your plea."
+                "私は潮流王朝のケルプ卿だ。キュカミスと私には意見の違いがある。",
+                "だが、深淵からより大きな脅威が現れている。",
+                "深淵から闇の真珠を取ってくれば、お前の頼みを聞こう。"
             ],
-            "completedText": ["Retrieve the dark pearl from the abyss."]
+            "completedText": [
+                "深淵から闇の真珠を取ってくるのだ。"
+            ]
         },
         "3": {
             "task": "talk",
             "npc": "ladybubbles",
             "text": [
-                "Oh, hello! I'm Lady Bubbles of the Bubble Dynasty.",
-                "A secret tryst between two families might lead to war.",
-                "Discover which families, and I shall align with King Cucumis."
+                "あら、こんにちは！私は泡王朝のバブルズ様よ。",
+                "二つの家族の間の秘密の逢瀬が、戦争を招くかもしれないの。",
+                "どの家族なのか突き止めてくれれば、キュカミス王と手を組むわ。"
             ],
-            "completedText": ["Discover the families involved in the secret tryst."]
+            "completedText": [
+                "秘密の逢瀬に関わっている家族を突き止めるのだ。"
+            ]
         },
         "4": {
             "task": "talk",
             "npc": "clandestinemember",
             "text": [
-                "You've uncovered our plan! Yet, we only wish for equal power among families.",
-                "Convince the king to a council, where all voices are heard, and conflict will cease."
+                "我々の計画がバレてしまったか！だが、我々はただ家族間の平等な力を望んでいるだけだ。",
+                "王を説得して評議会を開かせるのだ、全ての声が届く場所を。そうすれば争いは終わるだろう。"
             ],
-            "completedText": ["Return to King Cucumis with the information."]
+            "completedText": [
+                "情報を持ってキュカミス王のもとへ戻るのだ。"
+            ]
         },
         "5": {
             "task": "talk",
             "npc": "kingcucumis",
             "text": [
-                "A council, you say? I've been blind, letting power dictate our paths.",
-                "Let's bring unity to our underwater world. Here's a reward for your invaluable aid."
+                "評議会だと？私は目が見えていなかったようだ、力に我らの道を決めさせてしまうとは。",
+                "我らの海底世界に団結をもたらそう。これはお前の貴重な助けへの報酬だ。"
             ],
             "itemRewards": [
                 {
@@ -70,8 +83,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have diplomatically navigated the @crimson@Dynasties of the Deep@green@. King Cucumis awards you with the Royal Seal and 5000 gold!",
+                "title": "クエスト完了！",
+                "text": "@green@「@crimson@深海の王朝@green@」を外交的に乗り越えた。キュカミス王が「王家の印章」とゴールド5000を授けてくれた！",
                 "colour": "#33cc33"
             }
         }

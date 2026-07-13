@@ -1,37 +1,45 @@
 {
-    "name": "Mystic Timber",
-    "description": "A legendary tree of magic awaits.|In the heart of the Enchanted Forest lies a tree said to hold boundless magical properties. Only those with pure intent can locate and harness its might.",
-    "rewards": ["magicwood"],
+    "name": "神秘の木材",
+    "description": "魔法の伝説の木があなたを待っている。|魔法の森の中心には、無限の魔力を秘めていると言われる木がある。純粋な意図を持つ者だけが、それを見つけ、その力を扱うことができる。",
+    "rewards": [
+        "magicwood"
+    ],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "oldlumberjack",
             "text": [
-                "Adventurer, have you heard tales of the Mystic Tree?",
-                "Its wood is said to possess incredible magical power.",
-                "If you wish to find it, you must first seek the Forest Guardian."
+                "冒険者よ、神秘の木の伝説を聞いたことはあるか？",
+                "その木材は、信じられないほどの魔力を秘めていると言われている。",
+                "見つけたいのなら、まず森の守護者を探さねばならない。"
             ],
-            "completedText": ["Find the Forest Guardian."]
+            "completedText": [
+                "森の守護者を見つけるのだ。"
+            ]
         },
         "1": {
             "task": "talk",
             "npc": "forestguardian",
             "text": [
-                "Seeker of the Mystic Tree, why do you desire its wood?",
-                "Only those with pure intent can find it.",
-                "To prove your worth, help me with a few tasks."
+                "神秘の木を求める者よ、なぜその木材を望むのだ？",
+                "純粋な意図を持つ者だけがそれを見つけられる。",
+                "その価値を証明するため、いくつかの仕事を手伝ってくれ。"
             ],
-            "completedText": ["What can you help with?"]
+            "completedText": [
+                "何を手伝えばいい？"
+            ]
         },
         "2": {
             "task": "talk",
             "npc": "forestguardian",
             "text": [
-                "Firstly, the animals of this forest are restless.",
-                "Calm them by collecting the Tranquil Berries nearby.",
-                "Bring me 5 of them, and I'll share the next step."
+                "まず、この森の動物たちが落ち着かないのだ。",
+                "近くにある「静穏のベリー」を集めて、彼らを落ち着かせてくれ。",
+                "5個持ってきてくれれば、次のステップを教えよう。"
             ],
-            "completedText": ["Collect 5 Tranquil Berries."]
+            "completedText": [
+                "静穏のベリーを5個集めるのだ。"
+            ]
         },
         "3": {
             "task": "talk",
@@ -43,34 +51,42 @@
                 }
             ],
             "text": [
-                "Well done! Now, there's a dark spirit that lurks in the forest.",
-                "Defeat it, and you'll prove your commitment to the balance of nature."
+                "よくやった！さて、この森には闇の精霊が潜んでいる。",
+                "それを倒せば、自然の均衡への献身を証明したことになる。"
             ],
-            "completedText": ["Defeat the dark spirit."]
+            "completedText": [
+                "闇の精霊を倒すのだ。"
+            ]
         },
         "4": {
             "task": "kill",
-            "mob": ["darkspirit"],
+            "mob": [
+                "darkspirit"
+            ],
             "mobCountRequirement": 1
         },
         "5": {
             "task": "talk",
             "npc": "forestguardian",
             "text": [
-                "Impressive! Your intent seems pure.",
-                "To find the Mystic Tree, follow the path of glowing mushrooms.",
-                "But remember, respect the tree and only take what it willingly gives."
+                "見事だ！お前の意図は純粋なようだ。",
+                "神秘の木を見つけるには、光るキノコの道を辿るのだ。",
+                "だが忘れるな、木に敬意を払い、木が自ら与えてくれるものだけを受け取るのだ。"
             ],
-            "completedText": ["Follow the path of glowing mushrooms."]
+            "completedText": [
+                "光るキノコの道を辿るのだ。"
+            ]
         },
         "6": {
             "task": "talk",
             "npc": "mystictree",
             "text": [
-                "You stand before me, adventurer. I sense your pure intent.",
-                "Cut a small piece of my wood, but promise to use its magic for good."
+                "お前は私の前に立っている、冒険者よ。お前の純粋な意図を感じる。",
+                "私の木材の小さな一片を切り取るがいい、だがその魔力を善のために使うと約束するのだ。"
             ],
-            "completedText": ["Cut the Mystic Tree."]
+            "completedText": [
+                "神秘の木を切るのだ。"
+            ]
         },
         "7": {
             "task": "talk",
@@ -82,12 +98,12 @@
                 }
             ],
             "text": [
-                "You've done it! The power of the Mystic Tree is now yours to wield.",
-                "Use it wisely, and always respect the balance of nature."
+                "やり遂げたな！神秘の木の力が、今やお前のものだ。",
+                "賢く使い、常に自然の均衡を敬うのだ。"
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@Mystic Timber@green@. The power of the Mystic Tree is now in your hands!",
+                "title": "クエスト完了！",
+                "text": "@green@「@crimson@神秘の木材@green@」を終えた。神秘の木の力が、今やあなたの手の中にある！",
                 "colour": "#33cc33"
             }
         }

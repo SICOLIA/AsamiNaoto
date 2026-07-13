@@ -1,18 +1,22 @@
 {
-    "name": "The Legacy Artifact",
-    "description": "In an ancient legend, an artifact of immense power was torn apart and scattered. The pieces, when brought together and reforged, promise unimaginable might. Take on this challenging quest, drawing upon a multitude of skills, to bring the artifact back to life.",
-    "rewards": ["Magic Lamp"],
+    "name": "遺産の遺物",
+    "description": "古代の伝説によると、絶大な力を持つ遺物が引き裂かれ、各地に散らばったという。その破片を集めて再び鍛え直せば、想像を絶する力が約束されているという。数々のスキルを駆使するこの挑戦的なクエストに挑み、遺物を蘇らせよう。",
+    "rewards": [
+        "Magic Lamp"
+    ],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "elderMage",
             "text": [
-                "Greetings, adventurer. Legends speak of a powerful artifact,",
-                "one that requires mastery of various skills to restore.",
-                "The first part is the Elemental Ore, a mineral buried deep within",
-                "the earth. Mine it so we can begin our journey."
+                "こんにちは、冒険者よ。強力な遺物の伝説が語り継がれている、",
+                "それを修復するには様々なスキルの熟練が必要だ。",
+                "最初の部分は「元素の鉱石」、大地の奥深くに埋まっている鉱物だ。",
+                "採掘してくれ、そうすれば我々の旅が始まる。"
             ],
-            "completedText": ["Have you found the Elemental Ore yet?"]
+            "completedText": [
+                "元素の鉱石はもう見つかったか？"
+            ]
         },
         "1": {
             "task": "mine",
@@ -22,10 +26,10 @@
                     "count": 1
                 }
             ],
-            "nextStage": "Using the elemental ore, you must now combine it with your knowledge of smithing to forge the Elemental Blade Base.",
+            "nextStage": "元素の鉱石を使い、今度は鍛冶の知識と組み合わせて「元素の刃の土台」を鍛え上げなければならない。",
             "popup": {
-                "title": "Stage completed!",
-                "text": "@green@You have mined the @crimson@Elemental Ore@green@. Proceed to the next step to smith the blade base.",
+                "title": "ステージ完了！",
+                "text": "@green@「@crimson@元素の鉱石@green@」を採掘した。次のステップに進み、刃の土台を鍛えるのだ。",
                 "colour": "#33cc33"
             }
         },
@@ -37,10 +41,10 @@
                     "count": 1
                 }
             ],
-            "nextStage": "With the Elemental Blade Base crafted, it's time to move onto fletching. Craft an Elemental Bowstring using ancient woods.",
+            "nextStage": "元素の刃の土台が作れたら、次はフレッチングに移る番だ。古代の木材を使って「元素の弦」を作るのだ。",
             "popup": {
-                "title": "Stage completed!",
-                "text": "@green@You have smithed the @crimson@Elemental Blade Base@green@. Proceed to the next step to craft the bowstring.",
+                "title": "ステージ完了！",
+                "text": "@green@「@crimson@元素の刃の土台@green@」を鍛えた。次のステップに進み、弦を作るのだ。",
                 "colour": "#33cc33"
             }
         },
@@ -52,10 +56,10 @@
                     "count": 1
                 }
             ],
-            "nextStage": "Now that you have the Elemental Bowstring, combine it with the Blade Base to create the Elemental Bow Frame using crafting.",
+            "nextStage": "元素の弦が手に入ったので、それを刃の土台と組み合わせ、クラフトを使って「元素の弓フレーム」を作るのだ。",
             "popup": {
-                "title": "Stage completed!",
-                "text": "@green@You have fletched the @crimson@Elemental Bowstring@green@. Proceed to the next step to craft the bow frame.",
+                "title": "ステージ完了！",
+                "text": "@green@「@crimson@元素の弦@green@」をフレッチングした。次のステップに進み、弓フレームを作るのだ。",
                 "colour": "#33cc33"
             }
         },
@@ -67,10 +71,10 @@
                     "count": 1
                 }
             ],
-            "nextStage": "With the Elemental Bow Frame in hand, the final step is to infuse it with magic using alchemy to unlock its true potential.",
+            "nextStage": "元素の弓フレームが手に入った、最後のステップは、錬金術を使ってそれに魔法を吹き込み、真の力を解き放つことだ。",
             "popup": {
-                "title": "Stage completed!",
-                "text": "@green@You have crafted the @crimson@Elemental Bow Frame@green@. Proceed to the final step to infuse it with magic.",
+                "title": "ステージ完了！",
+                "text": "@green@「@crimson@元素の弓フレーム@green@」をクラフトした。最後のステップに進み、魔法を吹き込むのだ。",
                 "colour": "#33cc33"
             }
         },
@@ -83,8 +87,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@Congratulations! You have successfully combined all the components and crafted the @crimson@Legacy Artifact@green@. As a reward, you've been given a @crimson@Magic Lamp@green@!",
+                "title": "クエスト完了！",
+                "text": "@green@おめでとう！すべての部品を組み合わせ、@crimson@遺産の遺物@green@ を作り上げた。報酬として@crimson@魔法のランプ@green@ を手に入れた！",
                 "colour": "#33cc33"
             }
         }

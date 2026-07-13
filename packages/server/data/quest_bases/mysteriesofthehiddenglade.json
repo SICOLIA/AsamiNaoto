@@ -1,53 +1,67 @@
 {
-    "name": "Mysteries of the Hidden Glade",
-    "description": "A sealed forest awaits.|Rumors speak of a sealed glade, hidden away from the world. Deep within, a creature of power guards a great treasure.",
-    "rewards": ["gladering"],
+    "name": "隠された森の謎",
+    "description": "封印された森があなたを待っている。|世界から隠された、封印された森林の噂が語られている。その奥深くには、強大な力を持つ生き物が偉大な宝を守っている。",
+    "rewards": [
+        "gladering"
+    ],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "villagehistorian",
             "text": [
-                "Greetings, adventurer. Have you heard of the Hidden Glade?",
-                "It's a mystical forest sealed by our ancestors due to the danger within.",
-                "Could you perhaps venture in and discover its secrets?"
+                "こんにちは、冒険者よ。「隠された森」の話を聞いたことはあるか？",
+                "それは、内在する危険のため、我らの祖先が封印した神秘の森だ。",
+                "そこへ足を踏み入れ、その秘密を発見してもらえないか？"
             ],
-            "completedText": ["Find the entrance to the Hidden Glade."]
+            "completedText": [
+                "隠された森の入口を見つけるのだ。"
+            ]
         },
         "1": {
             "task": "talk",
             "npc": "gladeentrance",
             "text": [
-                "A sealed gate stands before you, adorned with ancient symbols.",
-                "By solving a riddle, the gate slowly opens, revealing the glade within."
+                "古代の紋様が施された封印の門が目の前に立ちはだかる。",
+                "謎を解くことで、門はゆっくりと開き、中の森が現れる。"
             ],
-            "completedText": ["Enter the Hidden Glade."]
+            "completedText": [
+                "隠された森へ入るのだ。"
+            ]
         },
         "2": {
             "task": "talk",
             "npc": "mysteriousaltar",
-            "text": ["Deep within the glade, an altar beckons. Placing an offering might grant you safe passage."],
-            "completedText": ["Seek the creature guarding the treasure."]
+            "text": [
+                "森の奥深くに、祭壇が招いている。捧げ物をすれば、安全な通行が許されるかもしれない。"
+            ],
+            "completedText": [
+                "宝を守る生き物を探すのだ。"
+            ]
         },
         "3": {
             "task": "talk",
             "npc": "gladeboss",
             "text": [
-                "A creature of immense power stands before you, its eyes watching your every move.",
-                "To reach the treasure, you must first defeat this guardian."
+                "絶大な力を持つ生き物がお前の前に立ちはだかり、その目はお前の一挙一動を見つめている。",
+                "宝にたどり着くには、まずこの守護者を倒さねばならない。"
             ],
-            "completedText": ["Prepare for battle!"]
+            "completedText": [
+                "戦いに備えろ！"
+            ]
         },
         "4": {
             "task": "kill",
-            "mob": ["gladeboss"],
+            "mob": [
+                "gladeboss"
+            ],
             "mobCountRequirement": 1
         },
         "5": {
             "task": "talk",
             "npc": "gladetreasure",
             "text": [
-                "Having defeated the guardian, a chest materializes before you.",
-                "Inside, you find a ring that radiates energy."
+                "守護者を倒したことで、目の前に宝箱が現れる。",
+                "中には、エネルギーを放つ指輪が入っている。"
             ],
             "itemRewards": [
                 {
@@ -56,8 +70,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have completed @crimson@Mysteries of the Hidden Glade@green@. The glade's treasure, the Glade Ring, is now yours!",
+                "title": "クエスト完了！",
+                "text": "@green@「@crimson@隠された森の謎@green@」を終えた。森の宝、「森の指輪」が今やあなたのものだ！",
                 "colour": "#33cc33"
             }
         }

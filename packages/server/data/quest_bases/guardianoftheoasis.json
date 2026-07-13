@@ -1,53 +1,65 @@
 {
-    "name": "Guardian of the Oasis",
-    "description": "Desert secrets await your discovery.|Legends speak of a hidden oasis, guarded by a majestic creature. Villagers are running out of water, and only the oasis can save them now.",
-    "rewards": ["elixiroflife"],
+    "name": "オアシスの守護者",
+    "description": "砂漠の秘密があなたの発見を待っている。|荘厳な生き物に守られた隠れオアシスの伝説が語られている。村人たちは水が尽きかけており、今やそのオアシスだけが彼らを救える。",
+    "rewards": [
+        "elixiroflife"
+    ],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "villageelder",
             "text": [
-                "Brave traveler, our village is in peril.",
-                "We've heard of an oasis hidden within the desert's heart.",
-                "But it's guarded by a creature. Will you help?"
+                "勇敢な旅人よ、我らの村は危機に瀕している。",
+                "砂漠の中心に隠されたオアシスの噂を聞いた。",
+                "だが、そこは生き物に守られているのだ。手伝ってくれるか？"
             ],
-            "completedText": ["Venture into the desert."]
+            "completedText": [
+                "砂漠へ足を踏み入れるのだ。"
+            ]
         },
         "1": {
             "task": "talk",
             "npc": "deserthermit",
             "text": [
-                "Ah, seeking the oasis? It's real, but not easy to find.",
-                "Follow the path where cacti bloom at midnight."
+                "ほう、オアシスを探しているのか？実在するが、簡単には見つからんぞ。",
+                "サボテンが真夜中に花咲く道を辿るのだ。"
             ],
-            "completedText": ["Seek the blooming cacti."]
+            "completedText": [
+                "花咲くサボテンを探すのだ。"
+            ]
         },
         "2": {
             "task": "talk",
             "npc": "bloomingcacti",
             "text": [
-                "The cacti glow mysteriously, leading a path deeper into the desert.",
-                "You feel a presence watching you."
+                "サボテンが神秘的に輝き、砂漠のさらに奥へと続く道を示している。",
+                "何かに見られている気配を感じる。"
             ],
-            "completedText": ["Continue on the path."]
+            "completedText": [
+                "道を進み続けるのだ。"
+            ]
         },
         "3": {
             "task": "talk",
             "npc": "oasisguardian",
             "text": [
-                "You've found the oasis, and its guardian stands before you.",
-                "Why have you come? Only those with pure intentions may access this sacred water."
+                "オアシスを見つけたな、その守護者がお前の前に立ちはだかる。",
+                "なぜ来たのだ？純粋な意図を持つ者だけが、この聖なる水に触れることを許される。"
             ],
-            "completedText": ["Speak your intentions."]
+            "completedText": [
+                "自分の意図を語るのだ。"
+            ]
         },
         "4": {
             "task": "talk",
             "npc": "oasisguardian",
             "text": [
-                "Very well. I sense truth in your words.",
-                "Collect the water, but remember: take only what you need."
+                "よかろう。お前の言葉に真実を感じる。",
+                "水を集めるがいい、だが忘れるな：必要な分だけを取るのだ。"
             ],
-            "completedText": ["Collect the oasis water."]
+            "completedText": [
+                "オアシスの水を集めるのだ。"
+            ]
         },
         "5": {
             "task": "talk",
@@ -59,12 +71,12 @@
                 }
             ],
             "text": [
-                "You've returned! And with the oasis water!",
-                "Our village is saved. As a token of our gratitude, take this Elixir of Life."
+                "戻ってきたか！しかもオアシスの水を持って！",
+                "我らの村は救われた。感謝の印として、この「生命の霊薬」を受け取ってくれ。"
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have completed @crimson@Guardian of the Oasis@green@. The villagers have gifted you the Elixir of Life!",
+                "title": "クエスト完了！",
+                "text": "@green@「@crimson@オアシスの守護者@green@」を終えた。村人たちが「生命の霊薬」を贈ってくれた！",
                 "colour": "#33cc33"
             }
         }

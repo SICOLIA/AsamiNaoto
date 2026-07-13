@@ -1,86 +1,111 @@
 {
-    "name": "Forge of Fate",
-    "description": "Thrain, the legendary blacksmith, requires unique materials.|Thrain's ambition is to forge the mightiest weapon ever seen. But to do that, he requires rare materials scattered across the land. Embark on a journey to gather these for him.",
-    "rewards": ["3500 gold", "weaponoflegends"],
+    "name": "運命の鍛冶場",
+    "description": "伝説の鍛冶師スレインは、特別な素材を必要としている。|スレインの野望は、これまでで最も強力な武器を鍛え上げることだ。だがそのためには、この地に散らばる希少な素材が必要だ。彼のために、それらを集める旅に出よう。",
+    "rewards": [
+        "3500 gold",
+        "weaponoflegends"
+    ],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "thrain",
             "text": [
-                "Ah, adventurer! You've arrived at the right time.",
-                "I aim to craft a weapon of legends, but I need special materials.",
-                "Will you assist me in this noble endeavor?"
+                "おお、冒険者よ！ちょうど良い時に来てくれた。",
+                "私は伝説の武器を作り上げようとしているのだが、特別な素材が必要なのだ。",
+                "この崇高な試みを手伝ってくれるか？"
             ],
-            "completedText": ["The first material is called Luminite Ore, found in the Luminescent Caves."]
+            "completedText": [
+                "最初の素材は「ルミナイト鉱石」といい、輝きの洞窟で見つかる。"
+            ]
         },
         "1": {
             "task": "talk",
             "npc": "caveguardian",
             "text": [
-                "You seek the Luminite Ore? Not many come here for it.",
-                "Prove your worth by defeating the Luminescent Golems, and I shall grant you access."
+                "ルミナイト鉱石を求めているのか？ここへ来る者は少ないのだがな。",
+                "輝きのゴーレムを倒して、自分の価値を証明しろ。そうすれば入る許可を与えよう。"
             ],
-            "completedText": ["Face the Luminescent Golems!"]
+            "completedText": [
+                "輝きのゴーレムに立ち向かうのだ！"
+            ]
         },
         "2": {
             "task": "kill",
-            "mob": ["luminescentgolems"],
+            "mob": [
+                "luminescentgolems"
+            ],
             "mobCountRequirement": 4
         },
         "3": {
             "task": "talk",
             "npc": "caveguardian",
-            "text": ["You've proven yourself. Here, take the Luminite Ore."],
+            "text": [
+                "自分の価値を証明したな。さあ、ルミナイト鉱石を受け取るがいい。"
+            ],
             "itemRewards": [
                 {
                     "key": "luminiteore",
                     "count": 3
                 }
             ],
-            "completedText": ["Return to Thrain with the Luminite Ore."]
+            "completedText": [
+                "ルミナイト鉱石を持ってスレインのもとへ戻るのだ。"
+            ]
         },
         "4": {
             "task": "talk",
             "npc": "thrain",
             "text": [
-                "Excellent work! The next material is the Heart of the Forest.",
-                "It's a magical gem located deep within the Enchanted Woods."
+                "見事な仕事だ！次の素材は「森の心臓」だ。",
+                "魔法の森の奥深くにある、魔法の宝石だ。"
             ],
-            "completedText": ["Venture into the Enchanted Woods and retrieve the Heart of the Forest."]
+            "completedText": [
+                "魔法の森へ足を踏み入れ、森の心臓を取ってくるのだ。"
+            ]
         },
         "5": {
             "task": "talk",
             "npc": "treantelder",
             "text": [
-                "Why do you seek the Heart? Oh, for Thrain's quest?",
-                "Solve the riddles of the woods and the Heart shall be yours."
+                "なぜ心臓を求めているのだ？ああ、スレインの依頼のためか？",
+                "森の謎を解けば、心臓はお前のものになるだろう。"
             ],
-            "completedText": ["Solve the riddles and navigate the Enchanted Woods."]
+            "completedText": [
+                "謎を解いて、魔法の森を進むのだ。"
+            ]
         },
         "6": {
             "task": "talk",
             "npc": "woodsspirit",
-            "text": ["You've solved the riddles. Here is the Heart of the Forest."],
+            "text": [
+                "謎を解いたな。これが森の心臓だ。"
+            ],
             "itemRewards": [
                 {
                     "key": "heartoftheforest",
                     "count": 1
                 }
             ],
-            "completedText": ["Return to Thrain with the Heart of the Forest."]
+            "completedText": [
+                "森の心臓を持ってスレインのもとへ戻るのだ。"
+            ]
         },
         "7": {
             "task": "talk",
             "npc": "thrain",
             "text": [
-                "You've done splendidly. The last item I require is the Ember of Eternity.",
-                "It's said to be in the grasp of the Phoenix atop the Tower of Flames."
+                "見事にやり遂げたな。最後に必要なのは「永遠の残り火」だ。",
+                "炎の塔の頂にいるフェニックスが持っていると言われている。"
             ],
-            "completedText": ["Climb the Tower of Flames and retrieve the Ember of Eternity."]
+            "completedText": [
+                "炎の塔に登り、永遠の残り火を取ってくるのだ。"
+            ]
         },
         "8": {
             "task": "kill",
-            "mob": ["flamephoenix"],
+            "mob": [
+                "flamephoenix"
+            ],
             "mobCountRequirement": 1
         },
         "9": {
@@ -103,8 +128,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@Forge of Fate@green@. You have gained 3500 gold and the Weapon of Legends!",
+                "title": "クエスト完了！",
+                "text": "@green@「@crimson@運命の鍛冶場@green@」を終えた。ゴールド3500と「伝説の武器」を獲得した！",
                 "colour": "#33cc33"
             }
         }
