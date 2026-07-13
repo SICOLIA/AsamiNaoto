@@ -1,24 +1,39 @@
 {
-    "name": "The Not-So-Great Potato",
-    "description": "Root of all humor.|The potato king insists he's a tomato. Help him come to terms with his tuber truth.",
-    "rewards": ["potato"],
+    "name": "そこまで偉くないジャガイモ",
+    "description": "全ての笑いの根源。|ジャガイモの王は自分をトマトだと言い張っている。彼が自分の芋としての真実を受け入れる手助けをしてあげよう。",
+    "rewards": [
+        "potato"
+    ],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "petepotato",
-            "text": ["I'm a juicy red tomato! I swear!", "Prove me wrong and I'll give you treasures."],
-            "completedText": ["Seek evidence about Pete's true identity."]
+            "text": [
+                "私はジューシーな赤いトマトだ！本当だぞ！",
+                "私が間違っていると証明できたら、宝をやろう。"
+            ],
+            "completedText": [
+                "ピートの本当の正体についての証拠を探すのだ。"
+            ]
         },
         "1": {
             "task": "talk",
             "npc": "vegetablevendor",
-            "text": ["Oh, Pete? He's definitely a potato.", "I've got an old photo of him sprouting!"],
-            "completedText": ["Return to Pete with the photo."]
+            "text": [
+                "ああ、ピート？あれは間違いなくジャガイモだよ。",
+                "芽が出ている頃の古い写真を持っているんだ！"
+            ],
+            "completedText": [
+                "写真を持ってピートのもとへ戻るのだ。"
+            ]
         },
         "2": {
             "task": "talk",
             "npc": "petepotato",
-            "text": ["Oh dear, I'm really a potato, huh?", "Thanks for setting me straight. Here's your reward!"],
+            "text": [
+                "ああ、なんてことだ、私は本当にジャガイモなのか？",
+                "気づかせてくれてありがとう。これが君への報酬だ！"
+            ],
             "itemRewards": [
                 {
                     "key": "potato-tiara",
@@ -30,8 +45,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You've unveiled the truth of Pete's past! Enjoy your sparkling @crimson@potato-tiara@green@ and a sack of very bewildered vegetables.",
+                "title": "クエスト完了！",
+                "text": "@green@ピートの過去の真実を明らかにした！きらめく@crimson@ジャガイモの冠@green@ と、困惑した野菜の詰まった袋を楽しんでくれ。",
                 "colour": "#33cc33"
             }
         }

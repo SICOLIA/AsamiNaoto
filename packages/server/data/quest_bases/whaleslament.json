@@ -1,49 +1,60 @@
 {
-    "name": "Whale's Lament",
-    "description": "A lonely whale calls for assistance.|Wally, a giant whale, has been separated from his family due to a mysterious underwater current. Navigate the treacherous waters and reunite him with his lost pod.",
-    "rewards": ["2000 gold", "whalecompanion"],
+    "name": "クジラの嘆き",
+    "description": "孤独なクジラが助けを求めている。|巨大なクジラのウォリーは、謎の海流によって家族と離れ離れになってしまった。危険な海を進み、失われた群れと再会させてあげよう。",
+    "rewards": [
+        "2000 gold",
+        "whalecompanion"
+    ],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "wally",
             "text": [
-                "Oh, dear adventurer! I've lost my way in these waters.",
-                "A strong current separated me from my family.",
-                "Can you help me find them?"
+                "ああ、親愛なる冒険者よ！この海で道に迷ってしまったのだ。",
+                "強い海流のせいで、家族と離れ離れになってしまった。",
+                "彼らを見つける手伝いをしてくれないか？"
             ],
-            "completedText": ["Please find clues about my family's whereabouts."]
+            "completedText": [
+                "私の家族の行方についての手がかりを探してくれ。"
+            ]
         },
         "1": {
             "task": "talk",
             "npc": "merfolkelder",
             "text": [
-                "Ah, Wally's family? I believe they were pulled towards the Abyssal Trench.",
-                "It's a dangerous place, young one. Beware of the creatures that lurk there!"
+                "ああ、ウォリーの家族か？彼らは深淵の海溝に引き込まれたと思うわ。",
+                "危険な場所よ、若い子。そこに潜む生き物には気をつけてね！"
             ],
-            "completedText": ["Venture into the Abyssal Trench with caution."]
+            "completedText": [
+                "用心しながら深淵の海溝へ足を踏み入れるのだ。"
+            ]
         },
         "2": {
             "task": "kill",
-            "mob": ["abyssalhunters"],
+            "mob": [
+                "abyssalhunters"
+            ],
             "mobCountRequirement": 5
         },
         "3": {
             "task": "talk",
             "npc": "lostwhale",
             "text": [
-                "Who are you? Oh, you're here to help?",
-                "I got stuck in a cave after being chased by those abyssal hunters.",
-                "Thank you for defeating them."
+                "あなたは誰？ああ、助けに来てくれたの？",
+                "あの深淵の狩人たちに追われて、洞窟に閉じ込められてしまったの。",
+                "倒してくれてありがとう。"
             ],
-            "completedText": ["Guide me back to Wally, please!"]
+            "completedText": [
+                "ウォリーのもとへ案内してほしいの！"
+            ]
         },
         "4": {
             "task": "talk",
             "npc": "wally",
             "text": [
-                "My family! You found them!",
-                "I cannot express my gratitude enough.",
-                "As a token of my appreciation, please accept this gift."
+                "私の家族！見つけてくれたのか！",
+                "この感謝の気持ちは言葉では言い表せない。",
+                "感謝の印として、この贈り物を受け取ってくれ。"
             ],
             "itemRewards": [
                 {
@@ -56,8 +67,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@Whale's Lament@green@. You have gained 2000 gold and a Whale Companion!",
+                "title": "クエスト完了！",
+                "text": "@green@「@crimson@クジラの嘆き@green@」を終えた。ゴールド2000と「クジラの仲間」を獲得した！",
                 "colour": "#33cc33"
             }
         }

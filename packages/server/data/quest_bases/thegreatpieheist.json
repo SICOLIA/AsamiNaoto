@@ -1,40 +1,51 @@
 {
-    "name": "The Great Pie Heist",
-    "description": "Pie's gone missing!|Someone in town has taken Mrs. Berry's award-winning blueberry pie. It's up to you to follow the crumbs and solve this tasty mystery!",
-    "rewards": ["sliceofpie"],
+    "name": "大パイ強奪事件",
+    "description": "パイが消えた！|町の誰かが、ベリー夫人の受賞歴あるブルーベリーパイを持ち去ってしまった。パンくずを辿って、この美味しい謎を解き明かすのは君の仕事だ！",
+    "rewards": [
+        "sliceofpie"
+    ],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "mrsberry",
             "text": [
-                "Adventurer! My blueberry pie is gone!",
-                "I was going to enter it in the competition tomorrow!",
-                "Find it and there's a slice in it for you."
+                "冒険者よ！私のブルーベリーパイがなくなったの！",
+                "明日のコンテストに出すつもりだったのに！",
+                "見つけてくれたら、一切れ分けてあげるわ。"
             ],
-            "completedText": ["Sniff out the pie thief!"]
+            "completedText": [
+                "パイ泥棒を嗅ぎ出すのだ！"
+            ]
         },
         "1": {
             "task": "talk",
             "npc": "piecrumbs",
             "text": [
-                "Following the trail of pie crumbs, you stumble upon a suspicious-looking squirrel.",
-                "It seems to be enjoying... a blueberry?"
+                "パイのパンくずの跡を辿ると、怪しげなリスに出くわす。",
+                "何かを美味しそうに食べているようだ…ブルーベリーか？"
             ],
-            "completedText": ["Confront the squirrel."]
+            "completedText": [
+                "リスを問い詰めるのだ。"
+            ]
         },
         "2": {
             "task": "talk",
             "npc": "squirrelnapper",
             "text": [
-                "Okay, okay! I took the pie! But it was for a good cause!",
-                "There's a party in the tree tonight. Want to join?"
+                "分かった、分かったよ！パイは僕が取ったんだ！でもちゃんとした理由があったんだよ！",
+                "今夜、木の上でパーティーがあるんだ。参加する？"
             ],
-            "completedText": ["Return the pie... or party first?"]
+            "completedText": [
+                "パイを返すか…それともまずパーティーに参加するか？"
+            ]
         },
         "3": {
             "task": "talk",
             "npc": "mrsberry",
-            "text": ["You brought it back! Thank you, dear!", "Now, about that slice I promised..."],
+            "text": [
+                "持って帰ってきてくれたのね！ありがとう！",
+                "さて、約束していたあの一切れだけど…"
+            ],
             "itemRewards": [
                 {
                     "key": "sliceofpie",
@@ -42,8 +53,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have cracked @crimson@The Great Pie Heist@green@. Enjoy your well-deserved slice of pie!",
+                "title": "クエスト完了！",
+                "text": "@green@「@crimson@大パイ強奪事件@green@」を解決した。ふさわしい報酬の一切れを楽しんでくれ！",
                 "colour": "#33cc33"
             }
         }

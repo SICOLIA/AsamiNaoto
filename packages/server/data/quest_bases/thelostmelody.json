@@ -1,41 +1,54 @@
 {
-    "name": "The Lost Melody",
-    "description": "A forgotten song needs to be revived.|Ancient tales tell of a melody that could summon rains and heal the earth. The village bard believes the notes are scattered, waiting to be pieced together.",
-    "rewards": ["ancientlute"],
+    "name": "失われた旋律",
+    "description": "忘れられた歌を蘇らせなければならない。|古い言い伝えによると、雨を呼び、大地を癒す旋律があったという。村の吟遊詩人は、その音符が各地に散らばっていて、集めるのを待っていると信じている。",
+    "rewards": [
+        "ancientlute"
+    ],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "villagebard",
             "text": [
-                "Greetings, traveler. I've been trying to recall a melody.",
-                "Its notes are said to be hidden in old monuments across the land.",
-                "Could you help me gather them?"
+                "こんにちは、旅人よ。ある旋律を思い出そうとしているのだ。",
+                "その音符は、この地に散らばる古い記念碑に隠されていると言われている。",
+                "集めるのを手伝ってくれないか？"
             ],
-            "completedText": ["Seek the first monument."]
+            "completedText": [
+                "最初の記念碑を探すのだ。"
+            ]
         },
         "1": {
             "task": "talk",
             "npc": "stonepillar",
             "text": [
-                "Upon this stone, a note is faintly etched. It resonates softly.",
-                "You've discovered the first note!"
+                "この石には、かすかに音符が刻まれている。柔らかく響いている。",
+                "最初の音符を見つけたぞ！"
             ],
-            "completedText": ["Find the next monument."]
+            "completedText": [
+                "次の記念碑を探すのだ。"
+            ]
         },
         "2": {
             "task": "talk",
             "npc": "ancientstatue",
             "text": [
-                "Water trickles down the statue, revealing a hidden musical note.",
-                "Another piece of the puzzle!"
+                "像を水が伝い落ち、隠された音符が現れる。",
+                "パズルのもう一片だ！"
             ],
-            "completedText": ["Seek the third note."]
+            "completedText": [
+                "三つ目の音符を探すのだ。"
+            ]
         },
         "3": {
             "task": "talk",
             "npc": "cavepainting",
-            "text": ["The cave's walls reverberate with a unique tone.", "You've found the third musical note!"],
-            "completedText": ["Return to the bard."]
+            "text": [
+                "洞窟の壁が独特の音色で響いている。",
+                "三つ目の音符を見つけたぞ！"
+            ],
+            "completedText": [
+                "吟遊詩人のもとへ戻るのだ。"
+            ]
         },
         "4": {
             "task": "talk",
@@ -47,12 +60,12 @@
                 }
             ],
             "text": [
-                "Ah, these are the notes! Let me piece them together...",
-                "Marvelous! As thanks, please take this ancient lute."
+                "おお、これがその音符だ！繋ぎ合わせてみよう…",
+                "素晴らしい！お礼に、この古いリュートを受け取ってくれ。"
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have completed @crimson@The Lost Melody@green@. The village bard has gifted you an ancient lute!",
+                "title": "クエスト完了！",
+                "text": "@green@「@crimson@失われた旋律@green@」を終えた。村の吟遊詩人が古いリュートを贈ってくれた！",
                 "colour": "#33cc33"
             }
         }

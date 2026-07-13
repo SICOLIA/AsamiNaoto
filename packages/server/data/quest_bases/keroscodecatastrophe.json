@@ -1,37 +1,44 @@
 {
-    "name": "Keros' Code Catastrophe",
-    "description": "Oops, he did it again!|Our dear developer, Keros, tried to implement a 'funny hat' feature but accidentally turned all monsters into chickens. Can you help revert his... 'enhancements'?",
-    "rewards": ["debugger's helm", "chicken plushie"],
+    "name": "ケロスのコード大惨事",
+    "description": "おっと、またやってしまった！|我らが親愛なる開発者ケロスは「面白い帽子」機能を実装しようとして、うっかり全てのモンスターを鶏に変えてしまった。彼の…「改良」を元に戻す手伝いをしてくれないか？",
+    "rewards": [
+        "debugger's helm",
+        "chicken plushie"
+    ],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "keros",
             "text": [
-                "Okay, I may have made a tiny mistake.",
-                "Who would have thought that adding a hat would turn all the dragons into chickens?",
-                "Please help me fix this!"
+                "ええと、ちょっとしたミスをしてしまったかもしれない。",
+                "帽子を追加しただけで、全てのドラゴンが鶏に変わるなんて、誰が思っただろう？",
+                "頼む、これを直す手伝いをしてくれ！"
             ],
-            "completedText": ["Seek the Code Guru in the Pixel Forest."]
+            "completedText": [
+                "ピクセルの森でコードの賢者を探すのだ。"
+            ]
         },
         "1": {
             "task": "talk",
             "npc": "codeguru",
             "text": [
-                "Ah, Keros' masterpieces. Always so... unexpected.",
-                "You'll need the Debug Elixir from the Glitch Grotto.",
-                "Bring it to me, and we'll set things right."
+                "ああ、ケロスの傑作か。いつも実に…予測不能だな。",
+                "グリッチ洞窟から「デバッグの霊薬」を手に入れる必要がある。",
+                "それを私のところに持ってきてくれれば、正常な状態に戻そう。"
             ],
-            "completedText": ["Retrieve the Debug Elixir from the Glitch Grotto."]
+            "completedText": [
+                "グリッチ洞窟からデバッグの霊薬を取ってくるのだ。"
+            ]
         },
         "2": {
             "task": "talk",
             "npc": "keros",
             "text": [
-                "You've got the elixir? Great!",
-                "Let's pour this on the main server... carefully...",
-                "...and voila! The monsters are back!",
-                "Maybe I'll stick to just designing hats from now on.",
-                "Thanks for the help! Here's a token of my appreciation."
+                "霊薬は手に入ったか？よし！",
+                "これをメインサーバーに注ごう…慎重に…",
+                "…そして、これだ！モンスターたちが元に戻った！",
+                "これからは帽子のデザインだけにしておこうかな。",
+                "手伝ってくれてありがとう！これは感謝の印だ。"
             ],
             "itemRewards": [
                 {
@@ -44,8 +51,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@Thanks to you, the game's integrity is restored! Wear the @crimson@debugger's helm@green@ with pride, and cuddle with your chicken plushie – a reminder of Keros' little mishap.",
+                "title": "クエスト完了！",
+                "text": "@green@お前のおかげで、ゲームの整合性が回復した！@crimson@デバッガーの兜@green@ を誇りを持って身につけ、鶏のぬいぐるみを抱きしめてくれ－ケロスのちょっとした失敗の思い出として。",
                 "colour": "#33cc33"
             }
         }

@@ -1,42 +1,54 @@
 {
-    "name": "Keros' Chicken Conundrum",
-    "description": "The fix had some... side effects.|After resolving Keros' hat-based hiccup, it seems not everything reverted correctly. Now, there's a realm where chickens rule. Dive into the Feathery Realm to restore balance.",
-    "rewards": ["chicken slayer title", "feathered cape"],
+    "name": "ケロスの鶏の難問",
+    "description": "その修正には、ちょっとした副作用があった。|ケロスの帽子絡みのしくじりを解決した後も、どうやら全てが正しく元通りになったわけではなかったようだ。今、鶏たちが支配する世界が存在する。羽根の世界に飛び込んで、バランスを取り戻そう。",
+    "rewards": [
+        "chicken slayer title",
+        "feathered cape"
+    ],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "keros",
             "text": [
-                "So, remember that tiny mistake with the chickens?",
-                "It looks like when we fixed it, a new realm formed where chickens rule the land.",
-                "And they aren't happy about losing their status in our realm!",
-                "Can you venture in and negotiate peace with the Chicken King?"
+                "ほら、あの鶏たちの小さなミスを覚えているか？",
+                "どうやら、それを修正した時に、鶏が支配する新しい世界ができてしまったようなんだ。",
+                "そして彼らは、我々の世界での地位を失ったことに怒っている！",
+                "そこへ行って、鶏の王と和平交渉をしてきてくれないか？"
             ],
-            "completedText": ["Enter the Feathery Realm portal to the east."]
+            "completedText": [
+                "東にある羽根の世界へのポータルに入るのだ。"
+            ]
         },
         "1": {
             "task": "talk",
             "npc": "chickenking",
             "text": [
-                "Bawk! Bawk! Who dares enter the realm of the mighty Chicken King?",
-                "Ah, you're from Keros' realm. We won't forget his... adjustments.",
-                "To prove you come in peace, I challenge you to a game of... Feathered Fetch!"
+                "コケーッ！コケーッ！誰が偉大なる鶏の王の世界に足を踏み入れる勇気があるというのだ？",
+                "ああ、お前はケロスの世界の者か。奴の…「調整」を我々は忘れておらんぞ。",
+                "平和的に来たと証明するため、「羽根フェッチ」というゲームで勝負しろ！"
             ],
-            "completedText": ["Play Feathered Fetch with the Chicken King."]
+            "completedText": [
+                "鶏の王と羽根フェッチで遊ぶのだ。"
+            ]
         },
         "2": {
             "task": "talk",
             "npc": "keros",
-            "text": ["You've played the game? That's great news!", "Did you manage to win the Chicken King's trust?"],
-            "completedText": ["Share your experience with Keros."]
+            "text": [
+                "ゲームで遊んだのか？それは良い知らせだ！",
+                "鶏の王の信頼を勝ち取れたか？"
+            ],
+            "completedText": [
+                "ケロスに体験を伝えるのだ。"
+            ]
         },
         "3": {
             "task": "talk",
             "npc": "chickenking",
             "text": [
-                "You've shown me that not all from Keros' realm are bad.",
-                "In recognition of your efforts, I grant you the title of Chicken Slayer.",
-                "Use it well, and may our realms coexist in peace!"
+                "ケロスの世界の者が皆悪いわけではないと、お前は示してくれた。",
+                "その努力を認め、お前に「鶏狩人」の称号を授けよう。",
+                "うまく使うがいい、我々の世界が平和に共存できるように！"
             ],
             "itemRewards": [
                 {
@@ -49,8 +61,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You've bridged the gap between realms and earned the respect of the Chicken King. Wear your @crimson@feathered cape@green@ as a symbol of unity.",
+                "title": "クエスト完了！",
+                "text": "@green@世界の間の溝を埋め、鶏の王の尊敬を勝ち取った。統一の証として @crimson@羽根のマント@green@ を身にまとうといい。",
                 "colour": "#33cc33"
             }
         }

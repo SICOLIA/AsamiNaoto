@@ -1,30 +1,40 @@
 {
-    "name": "The Lost Laugh",
-    "description": "Comic relief.|Jester Jestin has lost his ability to laugh! Find the tickling feather that can restore his jovial spirit.",
-    "rewards": ["giggly-potion", "jester-boots"],
+    "name": "失われた笑い",
+    "description": "コミックリリーフ。|道化師ジェスティンは笑う力を失ってしまった！彼の陽気な心を取り戻せる「くすぐりの羽根」を見つけてあげよう。",
+    "rewards": [
+        "giggly-potion",
+        "jester-boots"
+    ],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "jesterjestin",
             "text": [
-                "Woe is me! My laugh, my joy, it's all gone!",
-                "Legend says a mystical tickling feather can bring it back.",
-                "Would you be a dear and find it for me?"
+                "ああ、なんてことだ！私の笑い、私の喜びが、すべて消えてしまった！",
+                "伝説によると、神秘の「くすぐりの羽根」がそれを取り戻してくれるという。",
+                "頼む、見つけてきてくれないか？"
             ],
-            "completedText": ["Search for the legendary tickling feather."]
+            "completedText": [
+                "伝説のくすぐりの羽根を探すのだ。"
+            ]
         },
         "1": {
             "task": "talk",
             "npc": "oldchicken",
-            "text": ["Bawk! Oh, the tickling feather? I might have it...", "But I need some worms first. Bawk!"],
-            "completedText": ["Fetch some worms for the old chicken."]
+            "text": [
+                "コケッ！ああ、くすぐりの羽根かい？持っているかもしれないねえ…",
+                "でもまずミミズが必要だよ。コケッ！"
+            ],
+            "completedText": [
+                "老いた鶏のためにミミズを取ってくるのだ。"
+            ]
         },
         "2": {
             "task": "talk",
             "npc": "jesterjestin",
             "text": [
-                "Ha-HA! That's the stuff! I feel giggly already!",
-                "Here's a potion to share the giggles and some jester boots."
+                "ハーハッ！それだ！もうくすぐったい気分になってきたぞ！",
+                "笑いを分け合えるポーションと、道化師のブーツをあげよう。"
             ],
             "itemRewards": [
                 {
@@ -37,8 +47,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@Jester Jestin's laugh is back, all thanks to you! Enjoy spreading giggles with the @crimson@giggly-potion@green@ and strut in your new jester boots.",
+                "title": "クエスト完了！",
+                "text": "@green@道化師ジェスティンの笑いが戻ったぞ、すべて君のおかげだ！@crimson@くすくすポーション@green@ で笑いを広め、新しい道化師のブーツで気取って歩くといい。",
                 "colour": "#33cc33"
             }
         }
