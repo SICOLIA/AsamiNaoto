@@ -7,8 +7,6 @@ import webmanifest from 'astro-webmanifest';
 import sitemap from '@astrojs/sitemap';
 import robotsTxt from 'astro-robots-txt';
 import partytown from '@astrojs/partytown';
-import compress from 'astro-compress';
-import compressor from 'astro-compressor';
 import glsl from 'vite-plugin-glsl';
 import { imageSize } from 'image-size';
 import { defineConfig } from 'astro/config';
@@ -39,8 +37,9 @@ let plugins = [
         workbox: {
             cacheId: name,
             globDirectory: 'dist',
-            globPatterns: ['**/*.{js,css,svg,png,jpg,jpeg,gif,webp,woff,woff2,ttf,eot,ico}'],
-            navigateFallback: null
+            globPatterns: ['**/*.{js,css,ico}'], // ← 画像・フォント類を除外
+            navigateFallback: null,
+            maximumFileSizeToCacheInBytes: 5_000_000
         }
     })
 ];
@@ -104,9 +103,7 @@ if (import.meta.env.PROD)
             // filter: filterSitemapByDefaultLocale({ defaultLocale })
         }),
         partytown({ config: { debug: false } }),
-        robotsTxt({ host: true }),
-        compress({ Logger: 1, Image: false }),
-        compressor({ gzip: true, brotli: true })
+        robotsTxt({ host: true })
     );
 
 // https://astro.build/config
@@ -118,7 +115,7 @@ export default defineConfig({
     server: { host: true, port: 9000 },
     vite: {
         plugins,
-        build: { sourcemap: true },
+        build: { sourcemap: false },
         server: {
             strictPort: true,
             hmr: { protocol: 'ws', host: config.host, port: 5183 }
