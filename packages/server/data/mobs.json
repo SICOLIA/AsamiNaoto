@@ -82,6 +82,12 @@
     "crab": {
         "name": "カニ",
         "description": "これって食べられるのかな。",
+        "drops": [
+            {
+                "key": "hammer",
+                "chance": 3
+            }
+        ],
         "dropTables": [
             "ordinary"
         ],
