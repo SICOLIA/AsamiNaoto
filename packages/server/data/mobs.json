@@ -85,7 +85,7 @@
         "drops": [
             {
                 "key": "hammer",
-                "chance": 3
+                "chance": 100000
             }
         ],
         "dropTables": [
